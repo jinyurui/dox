@@ -97,5 +97,5 @@ html_theme_options = {
     'titles_only': False
 }
 
-breathe_projects = { "hello": "../../doxygen/build/xml/" }
+breathe_projects = { "hello": "./xml/" }
 breathe_default_project = "hello"
