@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_24e107d8aaaa0f0fb9ce89773de45c08" kind="dir">
+    <compoundname>Samples</compoundname>
+    <innerdir refid="dir_11dfd2aa886412c3c1d274b82d9e9106">Cpp</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Samples/"/>
+  </compounddef>
+</doxygen>

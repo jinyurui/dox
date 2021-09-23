@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structADLX__GamutColorSpace" kind="struct" language="C++" prot="public">
+    <compoundname>ADLX_GamutColorSpace</compoundname>
+    <includes refid="ADLXStructures_8h" local="no">ADLXStructures.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structADLX__GamutColorSpace_1afe63ac7ab293e0f5ebda65cf866fdf14" prot="public" static="no" mutable="no">
+        <type><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref></type>
+        <definition>ADLX_Point ADLX_GamutColorSpace::Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>red channel chromasity coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="79" column="21" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__GamutColorSpace_1a0ccfe2bd88f7f19dffb2d58e4842ec6a" prot="public" static="no" mutable="no">
+        <type><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref></type>
+        <definition>ADLX_Point ADLX_GamutColorSpace::Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>green channel chromasity coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="80" column="21" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__GamutColorSpace_1a30aeb61e794b9514eb355160c79c4c5a" prot="public" static="no" mutable="no">
+        <type><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref></type>
+        <definition>ADLX_Point ADLX_GamutColorSpace::Blue</definition>
+        <argsstring></argsstring>
+        <name>Blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>blue channel chromasity coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="81" column="21" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure containing information about driver supported gamut coordinates. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ADLX_GamutColorSpace</label>
+        <link refid="structADLX__GamutColorSpace"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Blue</edgelabel>
+          <edgelabel>Green</edgelabel>
+          <edgelabel>Red</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ADLX_Point</label>
+        <link refid="structADLX__Point"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/test/ADLX/Include/ADLXStructures.h" line="77" column="1" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="78" bodyend="83"/>
+    <listofallmembers>
+      <member refid="structADLX__GamutColorSpace_1a30aeb61e794b9514eb355160c79c4c5a" prot="public" virt="non-virtual"><scope>ADLX_GamutColorSpace</scope><name>Blue</name></member>
+      <member refid="structADLX__GamutColorSpace_1a0ccfe2bd88f7f19dffb2d58e4842ec6a" prot="public" virt="non-virtual"><scope>ADLX_GamutColorSpace</scope><name>Green</name></member>
+      <member refid="structADLX__GamutColorSpace_1afe63ac7ab293e0f5ebda65cf866fdf14" prot="public" virt="non-virtual"><scope>ADLX_GamutColorSpace</scope><name>Red</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

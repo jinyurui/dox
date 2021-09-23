@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="FreeDll" kind="page">
+    <compoundname>FreeDll</compoundname>
+    <title>Free dll</title>
+    <briefdescription>
+<para>Free dll. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Free dll.</para>
+<para><heading level="2">Syntax </heading>
+</para>
+<para><preformatted>
+ int    adlx_free_library (adlx_handle module)
+ </preformatted> <heading level="2">Parameters </heading>
+</para>
+<para><variablelist>
+<varlistentry><term></term></varlistentry>
+<listitem><para><table rows="1" cols="5"><row>
+<entry thead="no" class="paramdir"><para>1.</para>
+</entry><entry thead="no" class="paramdir"><para>[in]</para>
+</entry><entry thead="no" class="paramname"><para>module</para>
+</entry><entry thead="no" class="paramtype"><para>adlx_handle</para>
+</entry><entry thead="no"><para>The handle of ADLX dll. </para>
+</entry></row>
+</table>
+</para>
+</listitem>
+</variablelist>
+</para>
+<para><heading level="2">Return Value </heading>
+</para>
+<para>The return code of freeing dll. </para>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXDefines.h"/>
+  </compounddef>
+</doxygen>

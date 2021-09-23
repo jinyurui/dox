@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classadlx_1_1IADLXInterface" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>adlx::IADLXInterface</compoundname>
+    <derivedcompoundref refid="classadlx_1_1IADLXDisplay3DLUT" prot="public" virt="non-virtual">adlx::IADLXDisplay3DLUT</derivedcompoundref>
+    <derivedcompoundref refid="classadlx_1_1IADLXList" prot="public" virt="non-virtual">adlx::IADLXList</derivedcompoundref>
+    <includes refid="ADLXDefines_8h" local="no">ADLXDefines.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classadlx_1_1IADLXInterface_1a84b2474f2941b11e03797ea8a2913034" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const wchar_t *</type>
+        <definition>static const wchar_t* adlx::IADLXInterface::IID</definition>
+        <argsstring>()</argsstring>
+        <name>IID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="567" column="26" bodyfile="D:/test/ADLX/Include/ADLXDefines.h" bodystart="567" bodyend="567"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classadlx_1_1IADLXInterface_1a983d24356f5cbfdcca173454f3e09deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual adlx_long ADLX_STD_CALL adlx::IADLXInterface::Acquire</definition>
+        <argsstring>()=0</argsstring>
+        <name>Acquire</name>
+        <briefdescription>
+<para>acq </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>count </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="573" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXInterface_1ae993f9bbde0a75386d4368d5998df213" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual adlx_long ADLX_STD_CALL adlx::IADLXInterface::Release</definition>
+        <argsstring>()=0</argsstring>
+        <name>Release</name>
+        <briefdescription>
+<para>release </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>count </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="579" column="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXInterface_1aec8f7d033d48598b4fe1bf448b6be465" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual ADLX_RESULT ADLX_STD_CALL adlx::IADLXInterface::QueryInterface</definition>
+        <argsstring>(const wchar_t *interfaceId, void **ppInterface)=0</argsstring>
+        <name>QueryInterface</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>interfaceId</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>ppInterface</declname>
+        </param>
+        <briefdescription>
+<para>query interface </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">interfaceId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>interface name </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">ppInterface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the point of interface </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="587" column="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref> obj. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>adlx::IADLXDisplay3DLUT</label>
+        <link refid="classadlx_1_1IADLXDisplay3DLUT"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>adlx::IADLXList</label>
+        <link refid="classadlx_1_1IADLXList"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>adlx::IADLXInterface</label>
+        <link refid="classadlx_1_1IADLXInterface"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/test/ADLX/Include/ADLXDefines.h" line="564" column="1" bodyfile="D:/test/ADLX/Include/ADLXDefines.h" bodystart="565" bodyend="588"/>
+    <listofallmembers>
+      <member refid="classadlx_1_1IADLXInterface_1a983d24356f5cbfdcca173454f3e09deb" prot="public" virt="pure-virtual"><scope>adlx::IADLXInterface</scope><name>Acquire</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1a84b2474f2941b11e03797ea8a2913034" prot="public" virt="non-virtual"><scope>adlx::IADLXInterface</scope><name>IID</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1aec8f7d033d48598b4fe1bf448b6be465" prot="public" virt="pure-virtual"><scope>adlx::IADLXInterface</scope><name>QueryInterface</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1ae993f9bbde0a75386d4368d5998df213" prot="public" virt="pure-virtual"><scope>adlx::IADLXInterface</scope><name>Release</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

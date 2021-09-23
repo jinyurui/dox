@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ADLX_8h" kind="file" language="C++">
+    <compoundname>ADLX.h</compoundname>
+    <includes refid="ADLXDefines_8h" local="yes">ADLXDefines.h</includes>
+    <includes local="yes">ISystem.h</includes>
+    <includes local="yes">ILog.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>windows.h</label>
+      </node>
+      <node id="9">
+        <label>ILog.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="8">
+        <label>ISystem.h</label>
+      </node>
+      <node id="1">
+        <label>ADLX.h</label>
+        <link refid="ADLX_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>wchar.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>ADLXDefines.h</label>
+        <link refid="ADLXDefines_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ADLX_8h_1a01e03ede548cb4521e0895f77feacdc4" prot="public" static="no">
+        <name>ADLX_DLL_NAME</name>
+        <initializer>L&quot;adlx.dll&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADLX dll name </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="50" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ADLX_8h_1ae6717665e58771830fb95333b9af6b35" prot="public" static="no">
+        <name>ADLX_DLL_NAMEA</name>
+        <initializer>&quot;adlx.dll&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADLX dll name </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="57" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ADLX_8h_1a792851e2bf013e65cadf8d1979c93aeb" prot="public" static="no">
+        <name>ADLX_QUERY_VERSION_FUNCTION_NAME</name>
+        <initializer>&quot;ADLXQueryVersion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function name of ADLXQueryVersion </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="74" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ADLX_8h_1a8f14be1543fc55eae619dda67965bf35" prot="public" static="no">
+        <name>ADLX_INIT_FUNCTION_NAME</name>
+        <initializer>&quot;ADLXInitialize&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function name of ADLXInitialize </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="81" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ADLX_8h_1ad4b30c181751a349fccd865550dbc709" prot="public" static="no">
+        <name>ADLX_INIT_WITH_CALLER_ADL_FUNCTION_NAME</name>
+        <initializer>&quot;ADLXInitializeWithCallerAdl&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function name of ADLXInitializeWithCallerAdl </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="88" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ADLX_8h_1a4eb1fd9b5d55b0699d498535f29c4634" prot="public" static="no">
+        <name>ADLX_TERMINATE_FUNCTION_NAME</name>
+        <initializer>&quot;ADLXTerminate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function name of ADLXTerminate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="95" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXQueryVersion_Fn</definition>
+        <argsstring>)(adlx_uint64 *pVersion)</argsstring>
+        <name>ADLXQueryVersion_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXQueryVersion function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="107" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXInitialize_Fn</definition>
+        <argsstring>)(adlx_uint64 version, adlx::IADLXSystem **ppSystem)</argsstring>
+        <name>ADLXInitialize_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXInitialize function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="114" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXInitializeWithCallerAdl_Fn</definition>
+        <argsstring>)(adlx_uint64 version, adlx::IADLXSystem **ppSystem, adlx::IADLMapping **ppAdlMapping, adlx_handle adlContext, ADLX_ADL_Main_Memory_Free adlManinMemeoryFree)</argsstring>
+        <name>ADLXInitializeWithCallerAdl_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXInitializeWithCallerAdl function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="121" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXTerminate_Fn</definition>
+        <argsstring>)()</argsstring>
+        <name>ADLXTerminate_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXTerminate function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="128" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Notice<sp/>Regarding<sp/>Standards.<sp/><sp/>AMD<sp/>does<sp/>not<sp/>provide<sp/>a<sp/>license<sp/>or<sp/>sublicense<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>Intellectual<sp/>Property<sp/>Rights<sp/>relating<sp/>to<sp/>any<sp/>standards<sp/>For<sp/>clarity,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>will<sp/>pay<sp/>any<sp/>royalties<sp/>due<sp/>for<sp/>such<sp/>third<sp/>party<sp/>technologies<sp/>that<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>owed<sp/>as<sp/>a<sp/>result<sp/>of<sp/>AMD<sp/>providing<sp/>the<sp/>Software<sp/>to<sp/>you.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>license<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2021<sp/>Advanced<sp/>Micro<sp/>Devices,<sp/>Inc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//ADLX.h<sp/>-<sp/>ADLX<sp/>DLL<sp/>entry<sp/>points</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ADLX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ADLXDefines_8h" kindref="compound">ADLXDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ISystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ILog.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>dll<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//TODO:<sp/>Add<sp/>separate<sp/>names;<sp/>64/32<sp/>for<sp/>real<sp/>product<sp/>(incls<sp/>in<sp/>makefiles/solution)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_M_AMD64)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="ADLX_8h_1a01e03ede548cb4521e0895f77feacdc4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_DLL_NAME<sp/><sp/><sp/><sp/>L&quot;adlx.dll&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="ADLX_8h_1ae6717665e58771830fb95333b9af6b35" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_DLL_NAMEA<sp/><sp/><sp/>&quot;adlx.dll&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_DLL_NAME<sp/><sp/><sp/><sp/>L&quot;adlx.dll&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_DLL_NAMEA<sp/><sp/><sp/>&quot;adlx.dll&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>dll<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>C-style<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="ADLX_8h_1a792851e2bf013e65cadf8d1979c93aeb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_QUERY_VERSION_FUNCTION_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;ADLXQueryVersion&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="ADLX_8h_1a8f14be1543fc55eae619dda67965bf35" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_INIT_FUNCTION_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;ADLXInitialize&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="ADLX_8h_1ad4b30c181751a349fccd865550dbc709" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_INIT_WITH_CALLER_ADL_FUNCTION_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;ADLXInitializeWithCallerAdl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="ADLX_8h_1a4eb1fd9b5d55b0699d498535f29c4634" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_TERMINATE_FUNCTION_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;ADLXTerminate&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" kindref="member">ADLXQueryVersion_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref>*<sp/>pVersion);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" kindref="member">ADLXInitialize_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref><sp/>version,<sp/>adlx::IADLXSystem**<sp/>ppSystem);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" kindref="member">ADLXInitializeWithCallerAdl_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref><sp/>version,<sp/>adlx::IADLXSystem**<sp/>ppSystem,<sp/>adlx::IADLMapping**<sp/>ppAdlMapping,<sp/><ref refid="ADLXDefines_8h_1a7f46e6d7b35c5dd0c138ca00c2e98ef6" kindref="member">adlx_handle</ref><sp/>adlContext,<sp/><ref refid="ADLXDefines_8h_1a9c630b468809c08e39b777ef38f1d27e" kindref="member">ADLX_ADL_Main_Memory_Free</ref><sp/>adlManinMemeoryFree);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" kindref="member">ADLXTerminate_Fn</ref>)();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" kindref="member">ADLXQueryVersion_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref>*<sp/>pVersion);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" kindref="member">ADLXInitialize_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref><sp/>version,<sp/>IADLXSystem**<sp/>ppSystem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" kindref="member">ADLXInitializeWithCallerAdl_Fn</ref>)(<ref refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kindref="member">adlx_uint64</ref><sp/>version,<sp/>IADLXSystem**<sp/>ppSystem,<sp/>IADLMapping**<sp/>ppAdlMapping,<sp/><ref refid="ADLXDefines_8h_1a7f46e6d7b35c5dd0c138ca00c2e98ef6" kindref="member">adlx_handle</ref><sp/>adlContext,<sp/><ref refid="ADLXDefines_8h_1a9c630b468809c08e39b777ef38f1d27e" kindref="member">ADLX_ADL_Main_Memory_Free</ref><sp/>adlManinMemeoryFree);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref><sp/>*<ref refid="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" kindref="member">ADLXTerminate_Fn</ref>)();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>C-style<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//ADLX_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/test/ADLX/Include/ADLX.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceadlx" kind="namespace" language="C++">
+    <compoundname>adlx</compoundname>
+    <innerclass refid="classadlx_1_1IADLXInterface" prot="public">adlx::IADLXInterface</innerclass>
+    <innerclass refid="classadlx_1_1IADLXInterfacePtr__T" prot="public">adlx::IADLXInterfacePtr_T</innerclass>
+    <innerclass refid="classadlx_1_1IADLXList" prot="public">adlx::IADLXList</innerclass>
+    <innerclass refid="classadlx_1_1IADLXDisplay3DLUT" prot="public">adlx::IADLXDisplay3DLUT</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceadlx_1a1bab3fefaeca83e25dceb93bb9fd182f" prot="public" static="no">
+        <type><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXInterfacePtr_T</ref>&lt; <ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref> &gt;</type>
+        <definition>typedef IADLXInterfacePtr_T&lt;IADLXInterface&gt; adlx::IADLXInterfacePtr</definition>
+        <argsstring></argsstring>
+        <name>IADLXInterfacePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="772" column="29" bodyfile="D:/test/ADLX/Include/ADLXDefines.h" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceadlx_1ac394bd62b6480eb12102a1e4aa93f752" prot="public" static="no">
+        <type><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXInterfacePtr_T</ref>&lt; <ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref> &gt;</type>
+        <definition>typedef IADLXInterfacePtr_T&lt;IADLXList&gt; adlx::IADLXListPtr</definition>
+        <argsstring></argsstring>
+        <name>IADLXListPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="77" column="33" bodyfile="D:/test/ADLX/Include/ICollections.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceadlx_1af44faee6c057d3057ee0058018bd4fb6" prot="public" static="no">
+        <type><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXInterfacePtr_T</ref>&lt; <ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref> &gt;</type>
+        <definition>typedef IADLXInterfacePtr_T&lt;IADLXDisplay3DLUT&gt; adlx::IADLXDisplay3DLUTPtr</definition>
+        <argsstring></argsstring>
+        <name>IADLXDisplay3DLUTPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="138" column="33" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXDefines.h" line="557" column="1"/>
+  </compounddef>
+</doxygen>

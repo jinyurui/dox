@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="structADLX__GammaRamp" kind="struct"><name>ADLX_GammaRamp</name>
+    <member refid="structADLX__GammaRamp_1aa71eacad13632448e9b1a6a30b556531" kind="variable"><name>gamma</name></member>
+  </compound>
+  <compound refid="structADLX__GamutColorSpace" kind="struct"><name>ADLX_GamutColorSpace</name>
+    <member refid="structADLX__GamutColorSpace_1afe63ac7ab293e0f5ebda65cf866fdf14" kind="variable"><name>Red</name></member>
+    <member refid="structADLX__GamutColorSpace_1a0ccfe2bd88f7f19dffb2d58e4842ec6a" kind="variable"><name>Green</name></member>
+    <member refid="structADLX__GamutColorSpace_1a30aeb61e794b9514eb355160c79c4c5a" kind="variable"><name>Blue</name></member>
+  </compound>
+  <compound refid="structADLX__Point" kind="struct"><name>ADLX_Point</name>
+    <member refid="structADLX__Point_1a2c171617e8bae9711ee5de877201c590" kind="variable"><name>iX</name></member>
+    <member refid="structADLX__Point_1afbed37d07cb6b0374a51dc846782f773" kind="variable"><name>iY</name></member>
+  </compound>
+  <compound refid="structADLX__RegammaCoeff" kind="struct"><name>ADLX_RegammaCoeff</name>
+    <member refid="structADLX__RegammaCoeff_1a3cb450dcabefbe6f7ed5b5eb04a4e6a1" kind="variable"><name>CoefficientA0</name></member>
+    <member refid="structADLX__RegammaCoeff_1a83ab7eb07f33a84a7056f4a2aeb6d84e" kind="variable"><name>CoefficientA1</name></member>
+    <member refid="structADLX__RegammaCoeff_1aafeffa1fa77fe26b155f81ae96d1d71f" kind="variable"><name>CoefficientA2</name></member>
+    <member refid="structADLX__RegammaCoeff_1ab9d1517c68b2e91d30188f60aef5619c" kind="variable"><name>CoefficientA3</name></member>
+    <member refid="structADLX__RegammaCoeff_1ab5c105101ac4158b7ba51769ab620fc0" kind="variable"><name>Gamma</name></member>
+  </compound>
+  <compound refid="structADLX__RGB" kind="struct"><name>ADLX_RGB</name>
+    <member refid="structADLX__RGB_1a8a53f770bc4486014dc6fdeeaef4e483" kind="variable"><name>gamutR</name></member>
+    <member refid="structADLX__RGB_1a7540762d60fe2d8cdad1162521f6e452" kind="variable"><name>gamutG</name></member>
+    <member refid="structADLX__RGB_1a75b06f09bda103527d0c6a3cb1347b0e" kind="variable"><name>gamutB</name></member>
+  </compound>
+  <compound refid="classadlx_1_1IADLXDisplay3DLUT" kind="class"><name>adlx::IADLXDisplay3DLUT</name>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1a14f8ee21ffcbe21933aa7496f2a1cb33" kind="function"><name>ADLX_DECLARE_IID</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1ad7b58082477f4d6a0fffcf37e738e830" kind="function"><name>IsSupportedSCEVividGaming</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1a5da9559967b523ab20e435e5c181bc13" kind="function"><name>IsSupportedSCEOledPowerSaving</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1a9987c40b3263211e0149c215e0e8edc8" kind="function"><name>IsCurrentSCEDisabled</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1ab596a501f6044483eb1c4f0188482ce3" kind="function"><name>IsCurrentSCEVividGaming</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1ae92f276b0ce5224d2ae780af5101613b" kind="function"><name>IsCurrentSCEOledPowerSaving</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1a56ec37ad3bc42615626f6b04d7adfa85" kind="function"><name>SetSCEDisabled</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1a769cea5aaa50b4a5946a2bf3d8ed315e" kind="function"><name>SetSCEVividGaming</name></member>
+    <member refid="classadlx_1_1IADLXDisplay3DLUT_1ab1877f081ceb24581d470c0ab49bc1da" kind="function"><name>SetSCEOledPowerSaving</name></member>
+  </compound>
+  <compound refid="structIADLXDisplay3DLUT" kind="class"><name>IADLXDisplay3DLUT</name>
+    <member refid="structIADLXDisplay3DLUT_1aaf37f6ee6f3608a23b44242b4d883b53" kind="variable"><name>pVtbl</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a79ab85c33af44df5bfa668290f88442e" kind="function"><name>IID</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a5828e239515ac3a1594b7d13a88f5324" kind="function"><name>IsSupportedSCE</name></member>
+    <member refid="structIADLXDisplay3DLUT_1ad99c4998880516dc97b9c191ee3dd4db" kind="function"><name>IsSupportedSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUT_1ac46ed54c74ba4a66a26822455f135dd1" kind="function"><name>IsSupportedSCEOledPowerSaving</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a373ed388cbab1d11f5bc2df82a0f2697" kind="function"><name>IsCurrentSCEDisabled</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a401cefb81efa960030708a7cb3bec2b9" kind="function"><name>IsCurrentSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a6f64c6203b6f4966f1a4799a22f41a28" kind="function"><name>IsCurrentSCEOledPowerSaving</name></member>
+    <member refid="structIADLXDisplay3DLUT_1a4c82c8f69f79d2f708b28168ea013a92" kind="function"><name>SetSCEDisabled</name></member>
+    <member refid="structIADLXDisplay3DLUT_1ac2c5ad6b14f71fe07f3dbb39a9e3776a" kind="function"><name>SetSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUT_1ae6c1752e95c08f5412e5905a925bf359" kind="function"><name>SetSCEOledPowerSaving</name></member>
+  </compound>
+  <compound refid="structIADLXDisplay3DLUTVtbl" kind="struct"><name>IADLXDisplay3DLUTVtbl</name>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a265c849055b86afd1fcc0c9ef351a487" kind="variable"><name>Acquire</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1abdaec002e5e809af322df978ea9ae2a3" kind="variable"><name>Release</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1af063309caf21195ed40aabd5115dbe0a" kind="variable"><name>QueryInterface</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a772ed0caf4464868f29ad46e82c5e89d" kind="variable"><name>IsSupportedSCE</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a3d44dd36ceb24c221267c630a5b17eda" kind="variable"><name>IsSupportedSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a78185aafb3661f421c10c00a5cc3f539" kind="variable"><name>IsSupportedSCEOledPowerSaving</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1ad2353165f388d676ce8be87cef00f992" kind="variable"><name>IsCurrentSCEDisabled</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a39ee64915bb9bcfe3538396789f2a826" kind="variable"><name>IsCurrentSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1addad28bbc7042691ce8974fe3b7b7d16" kind="variable"><name>IsCurrentSCEOledPowerSaving</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1ada437fc4baee7a295b19bb54a5a6021b" kind="variable"><name>SetSCEDisabled</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a6262fdf88fb01cfb5232353a2688b53c" kind="variable"><name>SetSCEVividGaming</name></member>
+    <member refid="structIADLXDisplay3DLUTVtbl_1a125e9bf1d93ca481712fbd8cfb8a6f36" kind="variable"><name>SetSCEOledPowerSaving</name></member>
+  </compound>
+  <compound refid="classadlx_1_1IADLXInterface" kind="class"><name>adlx::IADLXInterface</name>
+    <member refid="classadlx_1_1IADLXInterface_1a84b2474f2941b11e03797ea8a2913034" kind="function"><name>IID</name></member>
+    <member refid="classadlx_1_1IADLXInterface_1a983d24356f5cbfdcca173454f3e09deb" kind="function"><name>Acquire</name></member>
+    <member refid="classadlx_1_1IADLXInterface_1ae993f9bbde0a75386d4368d5998df213" kind="function"><name>Release</name></member>
+    <member refid="classadlx_1_1IADLXInterface_1aec8f7d033d48598b4fe1bf448b6be465" kind="function"><name>QueryInterface</name></member>
+  </compound>
+  <compound refid="classadlx_1_1IADLXInterfacePtr__T" kind="class"><name>adlx::IADLXInterfacePtr_T</name>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a5d3b7a51eb82439df5b6327d5073e920" kind="variable"><name>m_pInterf</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1ab830d14d81cee90969551ad2eb21a1d7" kind="function"><name>InternalAcquire</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1ab04007bd08da3b96fd5c1f83626fc149" kind="function"><name>InternalRelease</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1afe9eed0823bb9dc38068d36bd1489e11" kind="function"><name>IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a05f9c13b9d9c824de1e00414d4dd1b36" kind="function"><name>IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1af01e3a1aa130a1905e5fb5572049879f" kind="function"><name>IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1aa5ea8c7258cc40b3951cf5f61f6a9a46" kind="function"><name>IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a7b0fa9358f3a2ef62d5536c7f7c72b67" kind="function"><name>IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a08b64a9f271594d33d13e2e9324040fc" kind="function"><name>~IADLXInterfacePtr_T</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a9ef1e1c6609c80ce9d3df99d2004b893" kind="function"><name>operator=</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a9fe94d028a721750fd315e1bb4d77865" kind="function"><name>operator=</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1aa956f1f359f36f0f7ad806a0fb066b09" kind="function"><name>Attach</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a72ea92232a06e4475304ac6d2d845e8d" kind="function"><name>Detach</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a54cee81606e3bd4b53a488341e69271a" kind="function"><name>Release</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a18589d52e786875eae7066886af70513" kind="function"><name>operator _Interf *</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a42e748ea212a3ec9d9fbf28b179140a9" kind="function"><name>operator*</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a4de3bd5014eff66945decad9d0d1e027" kind="function"><name>operator&amp;</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1aff9ce608faa488ebe39cc9dade26b6d1" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a3087bd6b927d47adf877acd0361cefcf" kind="function"><name>operator==</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1ac3eba21679dd9e6f84a7893a2e909135" kind="function"><name>operator==</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1ab6972ca12cf94c8093691cd985d9a3ef" kind="function"><name>operator!=</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1ab46900e730041407359df4915efd2b9c" kind="function"><name>operator!=</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a5536cc867464fb10886da8cda271463c" kind="function"><name>GetPtr</name></member>
+    <member refid="classadlx_1_1IADLXInterfacePtr__T_1a1efc30f8e9e005a788314479830c1230" kind="function"><name>GetPtr</name></member>
+  </compound>
+  <compound refid="classadlx_1_1IADLXList" kind="class"><name>adlx::IADLXList</name>
+    <member refid="classadlx_1_1IADLXList_1aa146de161b9ae2b849f6d5235ec8ef6d" kind="function"><name>IID</name></member>
+    <member refid="classadlx_1_1IADLXList_1acad51980369442d460bcef7ba20e651f" kind="function"><name>Size</name></member>
+    <member refid="classadlx_1_1IADLXList_1ac00bf24daaea5947769eccb00ed91247" kind="function"><name>Empty</name></member>
+    <member refid="classadlx_1_1IADLXList_1a641436ad69e85afdfafbc7b9cd2548e0" kind="function"><name>Begin</name></member>
+    <member refid="classadlx_1_1IADLXList_1abda86ebb6101536836c28430eca3a822" kind="function"><name>End</name></member>
+    <member refid="classadlx_1_1IADLXList_1a19e8eeb1bb42e85c012fad5fdb8b3e4e" kind="function"><name>At</name></member>
+    <member refid="classadlx_1_1IADLXList_1aeed0784a767d0b2653b4f715f3cc782c" kind="function"><name>Clear</name></member>
+    <member refid="classadlx_1_1IADLXList_1a3e68b911c12d17e073a5e17ee1cba188" kind="function"><name>Remove_Back</name></member>
+    <member refid="classadlx_1_1IADLXList_1a6884bd0edc4d5263c0c4e84710d735bb" kind="function"><name>Add_Back</name></member>
+  </compound>
+  <compound refid="namespaceadlx" kind="namespace"><name>adlx</name>
+    <member refid="namespaceadlx_1a1bab3fefaeca83e25dceb93bb9fd182f" kind="typedef"><name>IADLXInterfacePtr</name></member>
+    <member refid="namespaceadlx_1ac394bd62b6480eb12102a1e4aa93f752" kind="typedef"><name>IADLXListPtr</name></member>
+    <member refid="namespaceadlx_1af44faee6c057d3057ee0058018bd4fb6" kind="typedef"><name>IADLXDisplay3DLUTPtr</name></member>
+  </compound>
+  <compound refid="ADLX_8h" kind="file"><name>ADLX.h</name>
+    <member refid="ADLX_8h_1a01e03ede548cb4521e0895f77feacdc4" kind="define"><name>ADLX_DLL_NAME</name></member>
+    <member refid="ADLX_8h_1ae6717665e58771830fb95333b9af6b35" kind="define"><name>ADLX_DLL_NAMEA</name></member>
+    <member refid="ADLX_8h_1a792851e2bf013e65cadf8d1979c93aeb" kind="define"><name>ADLX_QUERY_VERSION_FUNCTION_NAME</name></member>
+    <member refid="ADLX_8h_1a8f14be1543fc55eae619dda67965bf35" kind="define"><name>ADLX_INIT_FUNCTION_NAME</name></member>
+    <member refid="ADLX_8h_1ad4b30c181751a349fccd865550dbc709" kind="define"><name>ADLX_INIT_WITH_CALLER_ADL_FUNCTION_NAME</name></member>
+    <member refid="ADLX_8h_1a4eb1fd9b5d55b0699d498535f29c4634" kind="define"><name>ADLX_TERMINATE_FUNCTION_NAME</name></member>
+    <member refid="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" kind="typedef"><name>ADLXQueryVersion_Fn</name></member>
+    <member refid="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" kind="typedef"><name>ADLXInitialize_Fn</name></member>
+    <member refid="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" kind="typedef"><name>ADLXInitializeWithCallerAdl_Fn</name></member>
+    <member refid="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" kind="typedef"><name>ADLXTerminate_Fn</name></member>
+  </compound>
+  <compound refid="ADLXDefines_8h" kind="file"><name>ADLXDefines.h</name>
+    <member refid="ADLXDefines_8h_1acbf896f8442c1b98285723ef70df2dc2" kind="define"><name>ADLX_MAKE_FULL_VER</name></member>
+    <member refid="ADLXDefines_8h_1ab69830799ad6b447904567f7a1a777d8" kind="define"><name>ADLX_VER_MAJOR</name></member>
+    <member refid="ADLXDefines_8h_1a570f43462e6bc58be96a7c29057925de" kind="define"><name>ADLX_VER_MINOR</name></member>
+    <member refid="ADLXDefines_8h_1ac7d834b2f2a11818032368c97eb1c961" kind="define"><name>ADLX_VER_RELEASE</name></member>
+    <member refid="ADLXDefines_8h_1afd4670105c56d2809246aa7ed5a40a08" kind="define"><name>ADLX_VER_BUILD_NUM</name></member>
+    <member refid="ADLXDefines_8h_1a14dd7294b63695d25406ef8b622f0585" kind="define"><name>ADLX_FULL_VERSION</name></member>
+    <member refid="ADLXDefines_8h_1aae8468f2e510664116494bfde13e3db8" kind="define"><name>ADLX_CORE_LINK</name></member>
+    <member refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kind="define"><name>ADLX_STD_CALL</name></member>
+    <member refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kind="define"><name>ADLX_CDECL_CALL</name></member>
+    <member refid="ADLXDefines_8h_1ae0545abb23d6f4a463d48723ff8038c1" kind="define"><name>ADLX_FAST_CALL</name></member>
+    <member refid="ADLXDefines_8h_1a1fb46c1b483e91e0611a6cd2aca842b9" kind="define"><name>ADLX_INLINE</name></member>
+    <member refid="ADLXDefines_8h_1a8f571ca7d02a51be595db45ba715f90c" kind="define"><name>ADLX_FORCEINLINE</name></member>
+    <member refid="ADLXDefines_8h_1a5e8ce4ed67dbfc5e6a6e691ebb5a1091" kind="define"><name>ADLX_NO_VTABLE</name></member>
+    <member refid="ADLXDefines_8h_1aad41a85fa23d505e4f124d6816f3cfbd" kind="define"><name>adlx_countof</name></member>
+    <member refid="ADLXDefines_8h_1aa6d4b27e28dc60797e52e901ad4e9ced" kind="define"><name>ADLX_SUCCEEDED</name></member>
+    <member refid="ADLXDefines_8h_1a6ea0e7f02e40768a1e47cb60e0e6f482" kind="define"><name>ADLX_FAILED</name></member>
+    <member refid="ADLXDefines_8h_1a2297e1f14e76bd30cd1b24a018218692" kind="define"><name>ADLX_DECLARE_IID</name></member>
+    <member refid="ADLXDefines_8h_1a930574b15ad76647f7d55cb0273cf397" kind="define"><name>ADLX_IS_IID</name></member>
+    <member refid="ADLXDefines_8h_1aede8a40979edc05b036d618792c64151" kind="define"><name>ADLX_DECLARE_ITEM_IID</name></member>
+    <member refid="ADLXDefines_8h_1a930574b15ad76647f7d55cb0273cf397" kind="define"><name>ADLX_IS_IID</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kind="enum"><name>ADLX_RESULT</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a72597a9998fa21f37bfcaddd9cafaed5" kind="enumvalue"><name>ADLX_OK</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0aa559b325fb345d9152b653588511db5c" kind="enumvalue"><name>ADLX_FAIL</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0af44fabfdb08be14d11a6d2f732c856b7" kind="enumvalue"><name>ADLX_INVALID_ARGS</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0ac571770e655e2cf695827fb4a15e35c0" kind="enumvalue"><name>ADLX_BAD_VER</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a8fc7732baab75a3c05f77d1bf4a70d20" kind="enumvalue"><name>ADLX_UNKNOWN_INTERFACE</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0ae5f780950728a255730b0280499acb72" kind="enumvalue"><name>ADLX_TERMINATED</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a8de27968a45d7be7db0dd081935b9c2a" kind="enumvalue"><name>ADLX_ADL_INITI_ERROR</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a407e7fb76cdc6900948ba09adbc55a99" kind="enumvalue"><name>ADLX_NOT_FOUND</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a447f8d425a70ea68f944e0678206e74e" kind="enumvalue"><name>ADLX_INVALID_OBJECT</name></member>
+    <member refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0a0f2aa9a92254cd0fe4b705b0f77ca314" kind="enumvalue"><name>ADLX_ORPHAN_OBJECTS</name></member>
+    <member refid="ADLXDefines_8h_1a20ebb33d785b59e04eabe454d0d275a7" kind="enum"><name>ADLX_HGType</name></member>
+    <member refid="ADLXDefines_8h_1a20ebb33d785b59e04eabe454d0d275a7ac157bdf0b85a40d2619cbc8bc1ae5fe2" kind="enumvalue"><name>NONE</name></member>
+    <member refid="ADLXDefines_8h_1a20ebb33d785b59e04eabe454d0d275a7ac1f5c308ff9610759dbc1415b20df568" kind="enumvalue"><name>AMD</name></member>
+    <member refid="ADLXDefines_8h_1a20ebb33d785b59e04eabe454d0d275a7adbf1dee1b8cd7ea3c82661943c7b74f4" kind="enumvalue"><name>OTHER</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2c" kind="enum"><name>ADLX_ASICFAMTYPE</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2ca3545ff1a23cd34b9adbc8c665a5951be" kind="enumvalue"><name>ASIC_UNDEFINED</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2ca0dc8ed090699f28b662b7c765274cf9e" kind="enumvalue"><name>ASIC_RADEON</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2ca80725f02993ea38bb16b978d9226fd0b" kind="enumvalue"><name>ASIC_FIREPRO</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2ca0ad611b8d03595461b2e81edb4ca5195" kind="enumvalue"><name>ASIC_FIREMV</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2cadbd861ee855957a3422ae76d20b71d7c" kind="enumvalue"><name>ASIC_FIRESTREAM</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2ca96ee7dab50a7cdb839879acb9a4e64e3" kind="enumvalue"><name>ASIC_FUSION</name></member>
+    <member refid="ADLXDefines_8h_1ad1dde1627a5cd8fb9386ad7691e2ca2cac6b09b34c87726a358773f7fad37ffc8" kind="enumvalue"><name>ASIC_EMBEDDED</name></member>
+    <member refid="ADLXDefines_8h_1a0a07dec967855727a17681c44ed5db6f" kind="enum"><name>ADLX_GPUTYPE</name></member>
+    <member refid="ADLXDefines_8h_1a0a07dec967855727a17681c44ed5db6face1bf6380e6eb87aec4f7879f4d117c9" kind="enumvalue"><name>GPUTYPE_UNDEFINED</name></member>
+    <member refid="ADLXDefines_8h_1a0a07dec967855727a17681c44ed5db6faf54e5303fc76110709462383628c0d5b" kind="enumvalue"><name>GPUTYPE_INTEGRATED</name></member>
+    <member refid="ADLXDefines_8h_1a0a07dec967855727a17681c44ed5db6fa5aa5ebc90d45840cfadec5bd25e50423" kind="enumvalue"><name>GPUTYPE_DISCRETE</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8" kind="enum"><name>ADLX_DISPLAY_CONTYPE</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a294e0c1bbb3ca9ccd0b4c9872f697f66" kind="enumvalue"><name>DISPLAY_CONTYPE_UNKNOWN</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8afb7606e80d94f991f4adf02a785de52e" kind="enumvalue"><name>DISPLAY_CONTYPE_VGA</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a66e9c3dc1143b21d451f1eeeda928922" kind="enumvalue"><name>DISPLAY_CONTYPE_DVI_D</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a976f94a4c526e32729689885d12b4974" kind="enumvalue"><name>DISPLAY_CONTYPE_DVI_I</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8acd8ebf44ecb270f609f714fc7498dcc7" kind="enumvalue"><name>DISPLAY_CONTYPE_ATICVDONGLE_NTSC</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a7db4f3939cd75af1bd6b6f9145ed922a" kind="enumvalue"><name>DISPLAY_CONTYPE_ATICVDONGLE_JPN</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a0ade514509e706736405f5dfd8a2bded" kind="enumvalue"><name>DISPLAY_CONTYPE_ATICVDONGLE_NONI2C_JPN</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a6e40beb2a47876f713c59f8f3ca6c4c3" kind="enumvalue"><name>DISPLAY_CONTYPE_ATICVDONGLE_NONI2C_NTSC</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a34fc9104608a5827f65b4966c53a215e" kind="enumvalue"><name>DISPLAY_CONTYPE_PROPRIETARY</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a0ea53d6c677500162804e524be36389e" kind="enumvalue"><name>DISPLAY_CONTYPE_HDMI_TYPE_A</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a0f343261982b3c21d374c522e94dbf99" kind="enumvalue"><name>DISPLAY_CONTYPE_HDMI_TYPE_B</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8ab0d21daf08250dd0addd6d38c6bde568" kind="enumvalue"><name>DISPLAY_CONTYPE_SVIDEO</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8adb930735bf83ac951478cfe1e48e988b" kind="enumvalue"><name>DISPLAY_CONTYPE_COMPOSITE</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a6115b6cde3b24f5c0f1f30a551c6f302" kind="enumvalue"><name>DISPLAY_CONTYPE_RCA_3COMPONENT</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a8b7f2b83c5165a353b89c8ee30f00926" kind="enumvalue"><name>DISPLAY_CONTYPE_DISPLAYPORT</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a6e95611aba096c0c4e9fc4d39fa5b1aa" kind="enumvalue"><name>DISPLAY_CONTYPE_EDP</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8a0dcdd2ed087cd3a4dd1deaa4be25e20c" kind="enumvalue"><name>DISPLAY_CONTYPE_WIRELESSDISPLAY</name></member>
+    <member refid="ADLXDefines_8h_1a39f5a8d2a97234af57cc82fb3c09e0e8abcdfb70a8ce8756085bc779863d633cb" kind="enumvalue"><name>DISPLAY_CONTYPE_USB_TYPE_C</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44" kind="enum"><name>ADLX_DISPLAY_TYPE</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44aa2fa6d64ccb655bb744838972531f814" kind="enumvalue"><name>DISPLAY_TYPE_MONITOR</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44a8b6bf038d0bc3fa0407ec57552fb6c3a" kind="enumvalue"><name>DISPLAY_TYPE_TELEVISION</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44a95122594fce234a2f413fa5bacfbb0b8" kind="enumvalue"><name>DISPLAY_TYPE_LCD_PANEL</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44a2e71d866e8fc16c2142042a063cf5c14" kind="enumvalue"><name>DISPLAY_TYPE_DIGITAL_FLAT_PANEL</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44ad1962a730c65ae86adf85285b5e3fe5c" kind="enumvalue"><name>DISPLAY_TYPE_COMPONENT_VIDEO</name></member>
+    <member refid="ADLXDefines_8h_1ae7e516225131af0ff164e9384d8d0a44aecf18dcce9017bc96ad10dda0c5f5d37" kind="enumvalue"><name>DISPLAY_TYPE_PROJECTOR</name></member>
+    <member refid="ADLXDefines_8h_1ae2d0250dc861156a468001600a2ee648" kind="enum"><name>ADLX_DISPLAY_SCAN_TYPE</name></member>
+    <member refid="ADLXDefines_8h_1ae2d0250dc861156a468001600a2ee648aa26e5d6a224712b2542b07280bdab8e9" kind="enumvalue"><name>PROGRESSIVE</name></member>
+    <member refid="ADLXDefines_8h_1ae2d0250dc861156a468001600a2ee648a855562021fc14e40c67913a5bb4701f7" kind="enumvalue"><name>INTERLACED</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14" kind="enum"><name>ADLX_GAMUT_SPACE</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14a6d2c65316d5efd3aee2454740657b8be" kind="enumvalue"><name>GAMUT_SPACE_CCIR_709</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14ab1622dfde8daae9398a0a245c4798935" kind="enumvalue"><name>GAMUT_SPACE_CCIR_601</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14a81ccdc7e5afcb1abd12340eb5fa47301" kind="enumvalue"><name>GAMUT_SPACE_ADOBE_RGB</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14a5d7ae134656c91cc92e397e996fadd58" kind="enumvalue"><name>GAMUT_SPACE_CIE_RGB</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14adff8da50fc2428d3274deb186a9e363d" kind="enumvalue"><name>GAMUT_SPACE_CCIR_2020</name></member>
+    <member refid="ADLXDefines_8h_1a46dff86075115b139c1c72f447e94e14a74d331b6c316667fc652ce6bf76daf49" kind="enumvalue"><name>GAMUT_SPACE_CUSTOM</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeab" kind="enum"><name>ADLX_WHITE_POINT</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeabafda8bf3f312e8533c6aaaf0e44b5701d" kind="enumvalue"><name>WHITE_POINT_5000K</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeaba0a2e69d2af462123badbcc91a067112d" kind="enumvalue"><name>WHITE_POINT_6500K</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeaba585f24c3732b31a2ad036afeff29f6f7" kind="enumvalue"><name>WHITE_POINT_7500K</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeabab5870509771cc459d778cabc1dafa86c" kind="enumvalue"><name>WHITE_POINT_9300K</name></member>
+    <member refid="ADLXDefines_8h_1afb56c4b91425c281009c447ccb1feeaba69d26e715baf519132af949a693f443c" kind="enumvalue"><name>WHITE_POINT_CUSTOM</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fd" kind="enum"><name>ADLX_GAMMA_TYPE</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fda09b024ff449662360c66ce18d20096fa" kind="enumvalue"><name>UNKNOW</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fdab58305a50c2081e5495293490cfa036c" kind="enumvalue"><name>DEGAMMA_RAMP</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fda54f1acbc9507d4d16b8ded68349bf02d" kind="enumvalue"><name>REGAMMA_RAMP</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fda6f3c2aa392675bf57c826a692753f6b5" kind="enumvalue"><name>DEGAMMA_COEFFICENTS</name></member>
+    <member refid="ADLXDefines_8h_1a87f8763d8496a4e5ec84964e149144fdad879c7f3c3a36717e1f2ead2cf565bfd" kind="enumvalue"><name>REGAMMA_COEFFICENTS</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37" kind="enum"><name>ADLX_REGAMMA</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37ae54ad07efbe717c57efa04519043caa1" kind="enumvalue"><name>REGAMMA_UNKNOW</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37a268fe77cd1a064f2b91b880308b71e17" kind="enumvalue"><name>REGAMMA_SRGB</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37a596d84129b201ab2786e85b14c0199c4" kind="enumvalue"><name>REGAMMA_BP709</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37a6aa1c63d1c29e43404b254efb7eaecf7" kind="enumvalue"><name>REGAMMA_PQ</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37a2d7a4371ccb9efaedcd8509accc2f802" kind="enumvalue"><name>REGAMMA_PQ2084INTERIM</name></member>
+    <member refid="ADLXDefines_8h_1a4ac9bb696db7c200013f95c88abe7b37a08fb58309caca5ec6ee2d42a7644a448" kind="enumvalue"><name>REGAMMA_36</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284" kind="enum"><name>ADLX_DEGAMMA</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284a3a2f2d4ebf7a51711e4f06984fb7a2c6" kind="enumvalue"><name>DEGAMMA_UNKNOW</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284ab67c45071c303e66a2a8e425e21a249a" kind="enumvalue"><name>DEGAMMA_SRGB</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284a1b858422680e5f2d232e9bd2b54497d8" kind="enumvalue"><name>DEGAMMA_BP709</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284a84189832b719e7ef94d1ed10f9e26acf" kind="enumvalue"><name>DEGAMMA_PQ</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284a5860047eb405e41318d41e4db69f9a06" kind="enumvalue"><name>DEGAMMA_PQ2084INTERIM</name></member>
+    <member refid="ADLXDefines_8h_1a36fa57dc0d84e80f7c6e0c7d565dc284a67700f0ac0f4a194a24b6c7f9906be8a" kind="enumvalue"><name>DEGAMMA_36</name></member>
+    <member refid="ADLXDefines_8h_1ad96654bb381f13249bde2b8c54e51504" kind="enum"><name>ADLX_3DLUT_SCE</name></member>
+    <member refid="ADLXDefines_8h_1ad96654bb381f13249bde2b8c54e51504a1530b0a0538b1672d105315644e333af" kind="enumvalue"><name>SCE_DISABLED</name></member>
+    <member refid="ADLXDefines_8h_1ad96654bb381f13249bde2b8c54e51504aa2a2af767bc0c403a38347c374457d82" kind="enumvalue"><name>SCE_VIVIDGAMING</name></member>
+    <member refid="ADLXDefines_8h_1ad96654bb381f13249bde2b8c54e51504a06297b74783e87d53ad2f332abaf0571" kind="enumvalue"><name>SCE_OLEDPOWERSAVING</name></member>
+    <member refid="ADLXDefines_8h_1ae896c86f4fc55efe4e866450e33465b1" kind="enum"><name>ADLX_ORIENTATION</name></member>
+    <member refid="ADLXDefines_8h_1ae896c86f4fc55efe4e866450e33465b1aeffaa8f11bafc4c40b434f3b941eb1bf" kind="enumvalue"><name>ORIENTATION_LANDSCAPE</name></member>
+    <member refid="ADLXDefines_8h_1ae896c86f4fc55efe4e866450e33465b1acd00a965397a558275015a84f2f22dd5" kind="enumvalue"><name>ORIENTATION_PORTRAIT</name></member>
+    <member refid="ADLXDefines_8h_1ae896c86f4fc55efe4e866450e33465b1a29f5d104339a45621bab90f391ed3c84" kind="enumvalue"><name>ORIENTATION_LANDSCAPE_FLIPPED</name></member>
+    <member refid="ADLXDefines_8h_1ae896c86f4fc55efe4e866450e33465b1a0c4dc7635db48ef031605d4411ab4513" kind="enumvalue"><name>ORIENTATION_PORTRAIT_FLIPPED</name></member>
+    <member refid="ADLXDefines_8h_1a83322f63ada9c973559376760f141b89" kind="enum"><name>ADLX_DESKTOP_TYPE</name></member>
+    <member refid="ADLXDefines_8h_1a83322f63ada9c973559376760f141b89a03058f4b63d7d11fe6a5aa47154590a4" kind="enumvalue"><name>DESKTOP_SINGLE</name></member>
+    <member refid="ADLXDefines_8h_1a83322f63ada9c973559376760f141b89ac96f7ed618b411fc68b0e1fe21f2e62c" kind="enumvalue"><name>DESKTOP_DUPLCATE</name></member>
+    <member refid="ADLXDefines_8h_1a83322f63ada9c973559376760f141b89ac483eaf5310613780a7901e317b9b2a2" kind="enumvalue"><name>DESKTOP_EYEFINITY</name></member>
+    <member refid="ADLXDefines_8h_1a460278d9913c4386415ed4a7ef39afd7" kind="typedef"><name>adlx_int64</name></member>
+    <member refid="ADLXDefines_8h_1abd92771e6d61812965634c05dbe8fca4" kind="typedef"><name>adlx_int32</name></member>
+    <member refid="ADLXDefines_8h_1ada96c7e9db50fae4e3f93a35f08be2c2" kind="typedef"><name>adlx_int16</name></member>
+    <member refid="ADLXDefines_8h_1a9889cfff3955a698fe431ec594c68209" kind="typedef"><name>adlx_int8</name></member>
+    <member refid="ADLXDefines_8h_1aefc827e657b29c87c0f3de4af0313663" kind="typedef"><name>adlx_uint64</name></member>
+    <member refid="ADLXDefines_8h_1a9f14273da8e3f6900cd08cac968b3548" kind="typedef"><name>adlx_uint32</name></member>
+    <member refid="ADLXDefines_8h_1ab31ae109f021f2f6e2b5636ff687a163" kind="typedef"><name>adlx_uint16</name></member>
+    <member refid="ADLXDefines_8h_1a5d7f71295dccd5f783d415a51e80ed7d" kind="typedef"><name>adlx_uint8</name></member>
+    <member refid="ADLXDefines_8h_1ac86a3f6603ae052fda90ee22803007ea" kind="typedef"><name>adlx_size</name></member>
+    <member refid="ADLXDefines_8h_1a7f46e6d7b35c5dd0c138ca00c2e98ef6" kind="typedef"><name>adlx_handle</name></member>
+    <member refid="ADLXDefines_8h_1a4f00ef174139020b2c31154d1af6df19" kind="typedef"><name>adlx_double</name></member>
+    <member refid="ADLXDefines_8h_1a0a3d2002a9b3b41cd17893985a85295f" kind="typedef"><name>adlx_float</name></member>
+    <member refid="ADLXDefines_8h_1ad59bd512e1136c211dc9a1dfeef80b01" kind="typedef"><name>adlx_void</name></member>
+    <member refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kind="typedef"><name>adlx_long</name></member>
+    <member refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kind="typedef"><name>adlx_int</name></member>
+    <member refid="ADLXDefines_8h_1ad7323589132564cf1107a227bf11022c" kind="typedef"><name>adlx_ulong</name></member>
+    <member refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kind="typedef"><name>adlx_uint</name></member>
+    <member refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kind="typedef"><name>adlx_bool</name></member>
+    <member refid="ADLXDefines_8h_1a661f62b18e83b1f4c2d229d44c0ad7fc" kind="typedef"><name>ADLXQueryVersion_Fn</name></member>
+    <member refid="ADLXDefines_8h_1a9c630b468809c08e39b777ef38f1d27e" kind="typedef"><name>ADLX_ADL_Main_Memory_Free</name></member>
+    <member refid="ADLXDefines_8h_1a71ff03c0c3b30813b0114c2239a4db6d" kind="function"><name>adlx_atomic_inc</name></member>
+    <member refid="ADLXDefines_8h_1a99fbeae2292b71ffedb5481c9542a824" kind="function"><name>adlx_atomic_dec</name></member>
+    <member refid="ADLXDefines_8h_1a6f1a33cc2a6db35cb9ce6cb2ab4b21e4" kind="function"><name>adlx_load_library</name></member>
+    <member refid="ADLXDefines_8h_1a7115be07847f9fdce1cd7ca7151cc697" kind="function"><name>adlx_free_library</name></member>
+    <member refid="ADLXDefines_8h_1a8d54c008c70230f755c111ef3f17e290" kind="function"><name>adlx_get_proc_address</name></member>
+  </compound>
+  <compound refid="ADLXStructures_8h" kind="file"><name>ADLXStructures.h</name>
+  </compound>
+  <compound refid="CMakeLists_8txt" kind="file"><name>CMakeLists.txt</name>
+    <member refid="CMakeLists_8txt_1a49cf8530b2015795f5d36a688350f85c" kind="function"><name>cmake_minimum_required</name></member>
+    <member refid="CMakeLists_8txt_1add3996a7854e089df5341e27a92f8f25" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="ICollections_8h" kind="file"><name>ICollections.h</name>
+  </compound>
+  <compound refid="IDisplay3DLUT_8h" kind="file"><name>IDisplay3DLUT.h</name>
+    <member refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" kind="define"><name>STRING</name></member>
+    <member refid="IDisplay3DLUT_8h_1a302abd98759bf49b52d8fd127b5f5f11" kind="define"><name>CONTAINER</name></member>
+    <member refid="IDisplay3DLUT_8h_1a859ed2f0f81e4e14ee6bf9ecfa63719c" kind="typedef"><name>IADLXDisplay3DLUTVtbl</name></member>
+    <member refid="IDisplay3DLUT_8h_1a3ebc15bf8cd8d405e98c1449e1fc93b2" kind="variable"><name>name</name></member>
+    <member refid="IDisplay3DLUT_8h_1aefb19a1b8fa9173076d0b873de1d5734" kind="variable"><name>gList</name></member>
+    <member refid="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" kind="function"><name>ADLX_DECLARE_IID</name></member>
+  </compound>
+  <compound refid="test_8h" kind="file"><name>test.h</name>
+    <member refid="test_8h_1a1246040d86d82dd9e6151a67b4ca3f89" kind="define"><name>REFIID</name></member>
+    <member refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kind="define"><name>ADLX_STD_CALL</name></member>
+  </compound>
+  <compound refid="group__typedefs" kind="group"><name>typedefs</name>
+  </compound>
+  <compound refid="group__ADLXDefs" kind="group"><name>ADLXDefs</name>
+    <member refid="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" kind="typedef"><name>ADLXQueryVersion_Fn</name></member>
+    <member refid="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" kind="typedef"><name>ADLXInitialize_Fn</name></member>
+    <member refid="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" kind="typedef"><name>ADLXInitializeWithCallerAdl_Fn</name></member>
+    <member refid="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" kind="typedef"><name>ADLXTerminate_Fn</name></member>
+    <member refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kind="typedef"><name>adlx_long</name></member>
+  </compound>
+  <compound refid="ADLXFunction" kind="page"><name>ADLXFunction</name>
+  </compound>
+  <compound refid="dllFunction" kind="page"><name>dllFunction</name>
+  </compound>
+  <compound refid="LoadDll" kind="page"><name>LoadDll</name>
+  </compound>
+  <compound refid="FreeDll" kind="page"><name>FreeDll</name>
+  </compound>
+  <compound refid="GetFun" kind="page"><name>GetFun</name>
+  </compound>
+  <compound refid="page_IADLXDisplay3DLUT_Overview" kind="page"><name>page_IADLXDisplay3DLUT_Overview</name>
+  </compound>
+  <compound refid="display3dExample" kind="page"><name>display3dExample</name>
+  </compound>
+  <compound refid="dir_11dfd2aa886412c3c1d274b82d9e9106" kind="dir"><name>Cpp</name>
+  </compound>
+  <compound refid="dir_856524284ebe840938865dc061f982fb" kind="dir"><name>Include</name>
+  </compound>
+  <compound refid="dir_24e107d8aaaa0f0fb9ce89773de45c08" kind="dir"><name>Samples</name>
+  </compound>
+</doxygenindex>

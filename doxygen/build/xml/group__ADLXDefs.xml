@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="group__ADLXDefs" kind="group">
+    <compoundname>ADLXDefs</compoundname>
+    <title>ADLX Typedefs</title>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__ADLXDefs_1gadc8b2c2c6035d03d5223b6dc894ab784" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXQueryVersion_Fn</definition>
+        <argsstring>)(adlx_uint64 *pVersion)</argsstring>
+        <name>ADLXQueryVersion_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXQueryVersion function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="107" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1gac5f7f97490516e7be3e62c3be1383c66" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXInitialize_Fn</definition>
+        <argsstring>)(adlx_uint64 version, adlx::IADLXSystem **ppSystem)</argsstring>
+        <name>ADLXInitialize_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXInitialize function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="114" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1ga0a8a83b803fb2c0daafc82e9bc986e76" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXInitializeWithCallerAdl_Fn</definition>
+        <argsstring>)(adlx_uint64 version, adlx::IADLXSystem **ppSystem, adlx::IADLMapping **ppAdlMapping, adlx_handle adlContext, ADLX_ADL_Main_Memory_Free adlManinMemeoryFree)</argsstring>
+        <name>ADLXInitializeWithCallerAdl_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXInitializeWithCallerAdl function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="121" column="13" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1ga8c0d01f62522f27bdb72ece0c7c89ded" prot="public" static="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1ae65e2f8bee9a29f8e00bf58746fa59a0" kindref="member">ADLX_CDECL_CALL</ref> *</type>
+        <definition>ADLXTerminate_Fn</definition>
+        <argsstring>)()</argsstring>
+        <name>ADLXTerminate_Fn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The typedef of ADLXTerminate function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLX.h" line="128" column="9" bodyfile="D:/test/ADLX/Include/ADLX.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" prot="public" static="no">
+        <type>long</type>
+        <definition>adlx_long</definition>
+        <argsstring></argsstring>
+        <name>adlx_long</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The long. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXDefines.h" line="116" column="33" bodyfile="D:/test/ADLX/Include/ADLXDefines.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This page documents the ADLX Typedefs </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

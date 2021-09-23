@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="IDisplay3DLUT_8h" kind="file" language="C++">
+    <compoundname>IDisplay3DLUT.h</compoundname>
+    <includes refid="ADLXDefines_8h" local="yes">ADLXDefines.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>windows.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="7">
+        <label>wchar.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="1">
+        <label>IDisplay3DLUT.h</label>
+        <link refid="IDisplay3DLUT_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>ADLXDefines.h</label>
+        <link refid="ADLXDefines_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classadlx_1_1IADLXDisplay3DLUT" prot="public">adlx::IADLXDisplay3DLUT</innerclass>
+    <innerclass refid="structIADLXDisplay3DLUTVtbl" prot="public">IADLXDisplay3DLUTVtbl</innerclass>
+    <innerclass refid="structIADLXDisplay3DLUT" prot="public">IADLXDisplay3DLUT</innerclass>
+    <innernamespace refid="namespaceadlx">adlx</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" prot="public" static="no">
+        <name>STRING</name>
+        <initializer>bool</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="11" column="10" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="IDisplay3DLUT_8h_1a302abd98759bf49b52d8fd127b5f5f11" prot="public" static="no">
+        <name>CONTAINER</name>
+        <initializer>bool</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="16" column="11" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="IDisplay3DLUT_8h_1a859ed2f0f81e4e14ee6bf9ecfa63719c" prot="public" static="no">
+        <type>struct <ref refid="structIADLXDisplay3DLUTVtbl" kindref="compound">IADLXDisplay3DLUTVtbl</ref></type>
+        <definition>typedef struct IADLXDisplay3DLUTVtbl IADLXDisplay3DLUTVtbl</definition>
+        <argsstring></argsstring>
+        <name>IADLXDisplay3DLUTVtbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="163" column="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="IDisplay3DLUT_8h_1a3ebc15bf8cd8d405e98c1449e1fc93b2" prot="public" static="yes" mutable="no">
+        <type><ref refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" kindref="member">STRING</ref></type>
+        <definition>STRING name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="18" column="15" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="IDisplay3DLUT_8h_1aefb19a1b8fa9173076d0b873de1d5734" prot="public" static="yes" mutable="no">
+        <type><ref refid="IDisplay3DLUT_8h_1a302abd98759bf49b52d8fd127b5f5f11" kindref="member">CONTAINER</ref></type>
+        <definition>CONTAINER gList</definition>
+        <argsstring></argsstring>
+        <name>gList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="19" column="18" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ADLX_DECLARE_IID</definition>
+        <argsstring>(IADLXDisplay3DLUT, L&quot;IADLXDisplay3DLUT&quot;) typedef struct IADLXDisplay3DLUT IADLXDisplay3DLUT</argsstring>
+        <name>ADLX_DECLARE_IID</name>
+        <param>
+          <type><ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></type>
+        </param>
+        <param>
+          <type>L&quot;IADLXDisplay3DLUT&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="141" column="1" declfile="D:/test/ADLX/Include/IDisplay3DLUT.h" declline="141" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ADLX_IDISPLAY3DLUT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_IDISPLAY3DLUT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ADLXDefines_8h" kindref="compound">ADLXDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USE_ROPE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRING<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STRING<sp/>bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ALLOW_RANDOM_Access<sp/>==<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTAINER<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="IDisplay3DLUT_8h_1a302abd98759bf49b52d8fd127b5f5f11" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTAINER<sp/>bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="IDisplay3DLUT_8h_1a3ebc15bf8cd8d405e98c1449e1fc93b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" kindref="member">STRING</ref><sp/><ref refid="IDisplay3DLUT_8h_1a3ebc15bf8cd8d405e98c1449e1fc93b2" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="19" refid="IDisplay3DLUT_8h_1aefb19a1b8fa9173076d0b873de1d5734" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="IDisplay3DLUT_8h_1a302abd98759bf49b52d8fd127b5f5f11" kindref="member">CONTAINER</ref><sp/><ref refid="IDisplay3DLUT_8h_1aefb19a1b8fa9173076d0b873de1d5734" kindref="member">gList</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>IADLXDisplay3DLUT<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceadlx" kindref="compound">adlx</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classadlx_1_1IADLXDisplay3DLUT" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="ADLXDefines_8h_1a5e8ce4ed67dbfc5e6a6e691ebb5a1091" kindref="member">ADLX_NO_VTABLE</ref><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="75" refid="classadlx_1_1IADLXDisplay3DLUT_1a14f8ee21ffcbe21933aa7496f2a1cb33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1a14f8ee21ffcbe21933aa7496f2a1cb33" kindref="member">ADLX_DECLARE_IID</ref>(L</highlight><highlight class="stringliteral">&quot;IADLXDisplay3DLUT&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IsSupportedSCE(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>supported)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classadlx_1_1IADLXDisplay3DLUT_1ad7b58082477f4d6a0fffcf37e738e830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1ad7b58082477f4d6a0fffcf37e738e830" kindref="member">IsSupportedSCEVividGaming</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>supported)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classadlx_1_1IADLXDisplay3DLUT_1a5da9559967b523ab20e435e5c181bc13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1a5da9559967b523ab20e435e5c181bc13" kindref="member">IsSupportedSCEOledPowerSaving</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>supported)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classadlx_1_1IADLXDisplay3DLUT_1a9987c40b3263211e0149c215e0e8edc8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1a9987c40b3263211e0149c215e0e8edc8" kindref="member">IsCurrentSCEDisabled</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>SCEDisabled)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="classadlx_1_1IADLXDisplay3DLUT_1ab596a501f6044483eb1c4f0188482ce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1ab596a501f6044483eb1c4f0188482ce3" kindref="member">IsCurrentSCEVividGaming</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>VividGaming)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="classadlx_1_1IADLXDisplay3DLUT_1ae92f276b0ce5224d2ae780af5101613b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1ae92f276b0ce5224d2ae780af5101613b" kindref="member">IsCurrentSCEOledPowerSaving</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>OledPowerSaveing)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="classadlx_1_1IADLXDisplay3DLUT_1a56ec37ad3bc42615626f6b04d7adfa85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1a56ec37ad3bc42615626f6b04d7adfa85" kindref="member">SetSCEDisabled</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="classadlx_1_1IADLXDisplay3DLUT_1a769cea5aaa50b4a5946a2bf3d8ed315e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1a769cea5aaa50b4a5946a2bf3d8ed315e" kindref="member">SetSCEVividGaming</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="classadlx_1_1IADLXDisplay3DLUT_1ab1877f081ceb24581d470c0ab49bc1da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classadlx_1_1IADLXDisplay3DLUT_1ab1877f081ceb24581d470c0ab49bc1da" kindref="member">SetSCEOledPowerSaving</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="138" refid="namespaceadlx_1af44faee6c057d3057ee0058018bd4fb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXInterfacePtr_T&lt;IADLXDisplay3DLUT&gt;</ref><sp/><ref refid="namespaceadlx_1af44faee6c057d3057ee0058018bd4fb6" kindref="member">IADLXDisplay3DLUTPtr</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" refkind="member"><highlight class="normal"><ref refid="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" kindref="member">ADLX_DECLARE_IID</ref>(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>,<sp/>L</highlight><highlight class="stringliteral">&quot;IADLXDisplay3DLUT&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref><sp/><ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="structIADLXDisplay3DLUTVtbl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIADLXDisplay3DLUTVtbl" kindref="compound">IADLXDisplay3DLUTVtbl</ref></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//IADLXInterface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="structIADLXDisplay3DLUTVtbl_1a265c849055b86afd1fcc0c9ef351a487" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a265c849055b86afd1fcc0c9ef351a487" kindref="member">Acquire</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="148" refid="structIADLXDisplay3DLUTVtbl_1abdaec002e5e809af322df978ea9ae2a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1abdaec002e5e809af322df978ea9ae2a3" kindref="member">Release</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="149" refid="structIADLXDisplay3DLUTVtbl_1af063309caf21195ed40aabd5115dbe0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1af063309caf21195ed40aabd5115dbe0a" kindref="member">QueryInterface</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">wchar_t</highlight><highlight class="normal">*<sp/>interfaceId,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>ppInterface);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//IADLXDisplay3DLUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="structIADLXDisplay3DLUTVtbl_1a772ed0caf4464868f29ad46e82c5e89d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a772ed0caf4464868f29ad46e82c5e89d" kindref="member">IsSupportedSCE</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>supported);</highlight></codeline>
+<codeline lineno="153" refid="structIADLXDisplay3DLUTVtbl_1a3d44dd36ceb24c221267c630a5b17eda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a3d44dd36ceb24c221267c630a5b17eda" kindref="member">IsSupportedSCEVividGaming</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>supported);</highlight></codeline>
+<codeline lineno="154" refid="structIADLXDisplay3DLUTVtbl_1a78185aafb3661f421c10c00a5cc3f539" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a78185aafb3661f421c10c00a5cc3f539" kindref="member">IsSupportedSCEOledPowerSaving</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>supported);</highlight></codeline>
+<codeline lineno="155" refid="structIADLXDisplay3DLUTVtbl_1ad2353165f388d676ce8be87cef00f992" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1ad2353165f388d676ce8be87cef00f992" kindref="member">IsCurrentSCEDisabled</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>SCEDisabled);</highlight></codeline>
+<codeline lineno="156" refid="structIADLXDisplay3DLUTVtbl_1a39ee64915bb9bcfe3538396789f2a826" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a39ee64915bb9bcfe3538396789f2a826" kindref="member">IsCurrentSCEVividGaming</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>VividGaming);</highlight></codeline>
+<codeline lineno="157" refid="structIADLXDisplay3DLUTVtbl_1addad28bbc7042691ce8974fe3b7b7d16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1addad28bbc7042691ce8974fe3b7b7d16" kindref="member">IsCurrentSCEOledPowerSaving</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis,<sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref>*<sp/>OledPowerSaveing);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="structIADLXDisplay3DLUTVtbl_1ada437fc4baee7a295b19bb54a5a6021b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1ada437fc4baee7a295b19bb54a5a6021b" kindref="member">SetSCEDisabled</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="160" refid="structIADLXDisplay3DLUTVtbl_1a6262fdf88fb01cfb5232353a2688b53c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a6262fdf88fb01cfb5232353a2688b53c" kindref="member">SetSCEVividGaming</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="161" refid="structIADLXDisplay3DLUTVtbl_1a125e9bf1d93ca481712fbd8cfb8a6f36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<sp/>*<ref refid="structIADLXDisplay3DLUTVtbl_1a125e9bf1d93ca481712fbd8cfb8a6f36" kindref="member">SetSCEOledPowerSaving</ref>)(<ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="IDisplay3DLUT_8h_1a859ed2f0f81e4e14ee6bf9ecfa63719c" refkind="member"><highlight class="normal">}<ref refid="IDisplay3DLUT_8h_1a859ed2f0f81e4e14ee6bf9ecfa63719c" kindref="member">IADLXDisplay3DLUTVtbl</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="structIADLXDisplay3DLUT" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167" refid="structIADLXDisplay3DLUT_1aaf37f6ee6f3608a23b44242b4d883b53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structIADLXDisplay3DLUTVtbl" kindref="compound">IADLXDisplay3DLUTVtbl</ref><sp/>*<ref refid="structIADLXDisplay3DLUT_1aaf37f6ee6f3608a23b44242b4d883b53" kindref="member">pVtbl</ref>;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>IADLXDisplay3DLUT<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="D:/test/ADLX/Include/IDisplay3DLUT.h"/>
+  </compounddef>
+</doxygen>

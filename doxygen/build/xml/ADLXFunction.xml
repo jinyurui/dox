@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ADLXFunction" kind="page">
+    <compoundname>ADLXFunction</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Here are the four most important function addresses:<itemizedlist>
+<listitem><para><ref refid="ADLX_8h_1a792851e2bf013e65cadf8d1979c93aeb" kindref="member">ADLX_QUERY_VERSION_FUNCTION_NAME</ref></para>
+</listitem><listitem><para><ref refid="ADLX_8h_1a8f14be1543fc55eae619dda67965bf35" kindref="member">ADLX_INIT_FUNCTION_NAME</ref></para>
+</listitem><listitem><para><ref refid="ADLX_8h_1ad4b30c181751a349fccd865550dbc709" kindref="member">ADLX_INIT_WITH_CALLER_ADL_FUNCTION_NAME</ref></para>
+</listitem><listitem><para><ref refid="ADLX_8h_1a4eb1fd9b5d55b0699d498535f29c4634" kindref="member">ADLX_TERMINATE_FUNCTION_NAME</ref></para>
+</listitem></itemizedlist>
+</para>
+<para>We can get them by call <ref refid="GetFun" kindref="compound">adlx_get_proc_address</ref></para>
+<para><heading level="2">Example </heading>
+</para>
+<para>C++ <programlisting filename="ADLXHelper\Windows\Cpp\ADLXHelper.cpp"></programlisting> </para>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLX.h"/>
+  </compounddef>
+</doxygen>

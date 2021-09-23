@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classadlx_1_1IADLXList" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>adlx::IADLXList</compoundname>
+    <basecompoundref refid="classadlx_1_1IADLXInterface" prot="public" virt="non-virtual">adlx::IADLXInterface</basecompoundref>
+    <includes refid="ICollections_8h" local="no">ICollections.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1aa146de161b9ae2b849f6d5235ec8ef6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const wchar_t *</type>
+        <definition>static const wchar_t* adlx::IADLXList::IID</definition>
+        <argsstring>()</argsstring>
+        <name>IID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="50" column="30" bodyfile="D:/test/ADLX/Include/ICollections.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1acad51980369442d460bcef7ba20e651f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual adlx_uint ADLX_STD_CALL adlx::IADLXList::Size</definition>
+        <argsstring>()=0</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="55" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1ac00bf24daaea5947769eccb00ed91247" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXList::Empty</definition>
+        <argsstring>()=0</argsstring>
+        <name>Empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="57" column="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1a641436ad69e85afdfafbc7b9cd2548e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual adlx_uint ADLX_STD_CALL adlx::IADLXList::Begin</definition>
+        <argsstring>()=0</argsstring>
+        <name>Begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="60" column="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1abda86ebb6101536836c28430eca3a822" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual adlx_uint ADLX_STD_CALL adlx::IADLXList::End</definition>
+        <argsstring>()=0</argsstring>
+        <name>End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="63" column="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1a19e8eeb1bb42e85c012fad5fdb8b3e4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual ADLX_RESULT ADLX_STD_CALL adlx::IADLXList::At</definition>
+        <argsstring>(const adlx_uint location, IADLXInterface **ppItem)=0</argsstring>
+        <name>At</name>
+        <param>
+          <type>const <ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref></type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref> **</type>
+          <declname>ppItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="66" column="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1aeed0784a767d0b2653b4f715f3cc782c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual ADLX_RESULT ADLX_STD_CALL adlx::IADLXList::Clear</definition>
+        <argsstring>()=0</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="69" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1a3e68b911c12d17e073a5e17ee1cba188" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual ADLX_RESULT ADLX_STD_CALL adlx::IADLXList::Remove_Back</definition>
+        <argsstring>()=0</argsstring>
+        <name>Remove_Back</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="71" column="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXList_1a6884bd0edc4d5263c0c4e84710d735bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref> <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual ADLX_RESULT ADLX_STD_CALL adlx::IADLXList::Add_Back</definition>
+        <argsstring>(IADLXInterface *pItem)=0</argsstring>
+        <name>Add_Back</name>
+        <param>
+          <type><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref> *</type>
+          <declname>pItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ICollections.h" line="73" column="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>adlx::IADLXList</label>
+        <link refid="classadlx_1_1IADLXList"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>adlx::IADLXInterface</label>
+        <link refid="classadlx_1_1IADLXInterface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>adlx::IADLXList</label>
+        <link refid="classadlx_1_1IADLXList"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>adlx::IADLXInterface</label>
+        <link refid="classadlx_1_1IADLXInterface"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/test/ADLX/Include/ICollections.h" line="47" column="5" bodyfile="D:/test/ADLX/Include/ICollections.h" bodystart="48" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classadlx_1_1IADLXInterface_1a983d24356f5cbfdcca173454f3e09deb" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Acquire</name></member>
+      <member refid="classadlx_1_1IADLXList_1a6884bd0edc4d5263c0c4e84710d735bb" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Add_Back</name></member>
+      <member refid="classadlx_1_1IADLXList_1a19e8eeb1bb42e85c012fad5fdb8b3e4e" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>At</name></member>
+      <member refid="classadlx_1_1IADLXList_1a641436ad69e85afdfafbc7b9cd2548e0" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Begin</name></member>
+      <member refid="classadlx_1_1IADLXList_1aeed0784a767d0b2653b4f715f3cc782c" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Clear</name></member>
+      <member refid="classadlx_1_1IADLXList_1ac00bf24daaea5947769eccb00ed91247" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Empty</name></member>
+      <member refid="classadlx_1_1IADLXList_1abda86ebb6101536836c28430eca3a822" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>End</name></member>
+      <member refid="classadlx_1_1IADLXList_1aa146de161b9ae2b849f6d5235ec8ef6d" prot="public" virt="non-virtual"><scope>adlx::IADLXList</scope><name>IID</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1aec8f7d033d48598b4fe1bf448b6be465" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>QueryInterface</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1ae993f9bbde0a75386d4368d5998df213" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Release</name></member>
+      <member refid="classadlx_1_1IADLXList_1a3e68b911c12d17e073a5e17ee1cba188" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Remove_Back</name></member>
+      <member refid="classadlx_1_1IADLXList_1acad51980369442d460bcef7ba20e651f" prot="public" virt="pure-virtual"><scope>adlx::IADLXList</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

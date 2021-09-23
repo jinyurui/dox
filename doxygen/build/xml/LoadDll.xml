@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="LoadDll" kind="page">
+    <compoundname>LoadDll</compoundname>
+    <title>Load dll</title>
+    <briefdescription>
+<para>Load dll. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Load dll.</para>
+<para><heading level="2">Syntax </heading>
+</para>
+<para><preformatted>
+ <ref refid="ADLXDefines_8h_1a7f46e6d7b35c5dd0c138ca00c2e98ef6" kindref="member">adlx_handle</ref>    adlx_load_library (const wchar_t* filename)
+ </preformatted> <heading level="2">Parameters </heading>
+</para>
+<para><variablelist>
+<varlistentry><term></term></varlistentry>
+<listitem><para><table rows="1" cols="5"><row>
+<entry thead="no" class="paramdir"><para>1.</para>
+</entry><entry thead="no" class="paramdir"><para>[in]</para>
+</entry><entry thead="no" class="paramname"><para>filename</para>
+</entry><entry thead="no" class="paramtype"><para>const wchar_t*</para>
+</entry><entry thead="no"><para>The name of ADLX dll <ref refid="ADLX_8h_1a01e03ede548cb4521e0895f77feacdc4" kindref="member">ADLX_DLL_NAME</ref> or <ref refid="ADLX_8h_1ae6717665e58771830fb95333b9af6b35" kindref="member">ADLX_DLL_NAMEA</ref>. </para>
+</entry></row>
+</table>
+</para>
+</listitem>
+</variablelist>
+</para>
+<para><heading level="2">Return Value </heading>
+</para>
+<para>Get the dll handle. </para>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXDefines.h"/>
+  </compounddef>
+</doxygen>

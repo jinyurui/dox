@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="page_IADLXDisplay3DLUT_Overview" kind="page">
+    <compoundname>page_IADLXDisplay3DLUT_Overview</compoundname>
+    <title>Overview</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <emphasis><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></emphasis> interface provides methods for controlling 3D LUT.</para>
+<para><table rows="5" cols="2"><row>
+<entry thead="no"><para>InterfaceId:</para>
+</entry><entry thead="no"><para><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></para>
+</entry></row>
+<row>
+<entry thead="no"><para>Smart Pointer Interface Name:</para>
+</entry><entry thead="no"><para>IADLXDisplay3DLUTPtr</para>
+</entry></row>
+<row>
+<entry thead="no"><para>Library:</para>
+</entry><entry thead="no"><para>ADLX.dll</para>
+</entry></row>
+<row>
+<entry thead="no"><para>Inherits:</para>
+</entry><entry thead="no"><para>IADLXInterface</para>
+</entry></row>
+<row>
+<entry thead="no"><para>Inherited By:</para>
+</entry><entry thead="no"><para>NA</para>
+</entry></row>
+</table>
+</para>
+<para><emphasis><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></emphasis> is the entry point of controlling 3D LUT.<linebreak/>
+ 3D lookup tables** (<ulink url="https://en.wikipedia.org/wiki/3D_lookup_table"><bold>3D LUTs</bold></ulink>) are used to map one color space to another and is widely used in the film industry.<linebreak/>
+ ADLX doesn&apos;t provide customized 3D LUTs capability for now, instead provides a predefined &apos;profiles&apos; way which is called <bold>Selective Colour Enhancement</bold> (<bold>SCE</bold>).<linebreak/>
+ SCE** uses the 3D LUT which is a 17x17x17 matrix to apply &apos;profiles&apos; that enhance selected colors to make the displayed content perceptually more appealing to customers.<linebreak/>
+ Once the display is not availabe, such as unplugged, the calling of the function in <emphasis><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></emphasis> interface will fail and return <ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0aa559b325fb345d9152b653588511db5c" kindref="member">ADLX_FAIL</ref>.<linebreak/>
+</para>
+<para><underline>SCE Supported ASICs</underline><linebreak/>
+ Renoir, Cezanne, NV1x, NV2x</para>
+<para><underline>SCE Supported Profiles</underline><linebreak/>
+<itemizedlist>
+<listitem><para>Vivid Gaming: A color enhancement profile enables user have more saturated and vibrant colors.</para>
+</listitem><listitem><para>OLED Power Saving: A power saving profile specifically designed for embedded OLED panels.</para>
+</listitem></itemizedlist>
+</para>
+<para><underline>Gets <ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref> interface</underline><linebreak/>
+ IADLXDisplay3DLUT* is the sub-object of DOX_IADLXDisplay, below code shows how to get <emphasis><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref></emphasis> interface from DOX_IADLXDisplay.</para>
+<para><programlisting filename=".cpp"><codeline><highlight class="normal">IADLXDisplayPtr<sp/>display;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>some<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="namespaceadlx_1af44faee6c057d3057ee0058018bd4fb6" kindref="member">IADLXDisplay3DLUTPtr</ref><sp/>ppDisp3DLut;<sp/></highlight><highlight class="comment">//<sp/>some</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal">res<sp/>=<sp/>display-&gt;Get3DLUT(&amp;ppDisp3DLut);</highlight></codeline>
+</programlisting></para>
+<sect1 id="page_IADLXDisplay3DLUT_Overview_1autotoc_md0">
+<title>Requirements</title>
+<para><table rows="2" cols="2"><row>
+<entry thead="no"><para>Header</para>
+</entry><entry thead="no"><para>#include &quot;IDisplay3DLUT.h&quot;</para>
+</entry></row>
+<row>
+<entry thead="no"><para>Minimum version</para>
+</entry><entry thead="no"><para>1.0</para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/IDisplay3DLUT.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structADLX__RegammaCoeff" kind="struct" language="C++" prot="public">
+    <compoundname>ADLX_RegammaCoeff</compoundname>
+    <includes refid="ADLXStructures_8h" local="no">ADLXStructures.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structADLX__RegammaCoeff_1a3cb450dcabefbe6f7ed5b5eb04a4e6a1" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_RegammaCoeff::CoefficientA0</definition>
+        <argsstring></argsstring>
+        <name>CoefficientA0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>REGAMMA COEFFICIENT A0 DIVIDER </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="113" column="17" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__RegammaCoeff_1a83ab7eb07f33a84a7056f4a2aeb6d84e" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_RegammaCoeff::CoefficientA1</definition>
+        <argsstring></argsstring>
+        <name>CoefficientA1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>REGAMMA COEFFICIENT A1 DIVIDER </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="114" column="17" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__RegammaCoeff_1aafeffa1fa77fe26b155f81ae96d1d71f" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_RegammaCoeff::CoefficientA2</definition>
+        <argsstring></argsstring>
+        <name>CoefficientA2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>REGAMMA COEFFICIENT A2 DIVIDER </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="115" column="17" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__RegammaCoeff_1ab9d1517c68b2e91d30188f60aef5619c" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_RegammaCoeff::CoefficientA3</definition>
+        <argsstring></argsstring>
+        <name>CoefficientA3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>REGAMMA COEFFICIENT A3 DIVIDER </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="116" column="17" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__RegammaCoeff_1ab5c105101ac4158b7ba51769ab620fc0" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_RegammaCoeff::Gamma</definition>
+        <argsstring></argsstring>
+        <name>Gamma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>REGAMMA gamma DIVIDER </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="117" column="17" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure containing information about driver supported re-gamma coefficients used to build re-gamma curve. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXStructures.h" line="111" column="1" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="112" bodyend="118"/>
+    <listofallmembers>
+      <member refid="structADLX__RegammaCoeff_1a3cb450dcabefbe6f7ed5b5eb04a4e6a1" prot="public" virt="non-virtual"><scope>ADLX_RegammaCoeff</scope><name>CoefficientA0</name></member>
+      <member refid="structADLX__RegammaCoeff_1a83ab7eb07f33a84a7056f4a2aeb6d84e" prot="public" virt="non-virtual"><scope>ADLX_RegammaCoeff</scope><name>CoefficientA1</name></member>
+      <member refid="structADLX__RegammaCoeff_1aafeffa1fa77fe26b155f81ae96d1d71f" prot="public" virt="non-virtual"><scope>ADLX_RegammaCoeff</scope><name>CoefficientA2</name></member>
+      <member refid="structADLX__RegammaCoeff_1ab9d1517c68b2e91d30188f60aef5619c" prot="public" virt="non-virtual"><scope>ADLX_RegammaCoeff</scope><name>CoefficientA3</name></member>
+      <member refid="structADLX__RegammaCoeff_1ab5c105101ac4158b7ba51769ab620fc0" prot="public" virt="non-virtual"><scope>ADLX_RegammaCoeff</scope><name>Gamma</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

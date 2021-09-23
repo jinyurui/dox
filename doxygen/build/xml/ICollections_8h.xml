@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ICollections_8h" kind="file" language="C++">
+    <compoundname>ICollections.h</compoundname>
+    <includes refid="ADLXDefines_8h" local="yes">ADLXDefines.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>windows.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="1">
+        <label>ICollections.h</label>
+        <link refid="ICollections_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>wchar.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>ADLXDefines.h</label>
+        <link refid="ADLXDefines_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classadlx_1_1IADLXList" prot="public">adlx::IADLXList</innerclass>
+    <innernamespace refid="namespaceadlx">adlx</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Notice<sp/>Regarding<sp/>Standards.<sp/><sp/>AMD<sp/>does<sp/>not<sp/>provide<sp/>a<sp/>license<sp/>or<sp/>sublicense<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>Intellectual<sp/>Property<sp/>Rights<sp/>relating<sp/>to<sp/>any<sp/>standards<sp/>For<sp/>clarity,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>will<sp/>pay<sp/>any<sp/>royalties<sp/>due<sp/>for<sp/>such<sp/>third<sp/>party<sp/>technologies<sp/>that<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>owed<sp/>as<sp/>a<sp/>result<sp/>of<sp/>AMD<sp/>providing<sp/>the<sp/>Software<sp/>to<sp/>you.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>license<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2021<sp/>Advanced<sp/>Micro<sp/>Devices,<sp/>Inc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ADLX_ICOLLECTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_ICOLLECTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ADLXDefines_8h" kindref="compound">ADLXDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//ICollections.h<sp/>-<sp/>Interfaces<sp/>for<sp/>ADLX<sp/>collections</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>These<sp/>interfaces<sp/>are<sp/>used<sp/>when<sp/>ADLX<sp/>returns<sp/>or<sp/>receives<sp/>many-of<sp/>collections</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//IADLXList<sp/>allows<sp/>iterating<sp/>forward<sp/>in<sp/>a<sp/>collection<sp/>of<sp/>objects,<sp/>similar<sp/>with<sp/>an<sp/>stl<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>IADLXList<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceadlx" kindref="compound">adlx</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47" refid="classadlx_1_1IADLXList" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="ADLXDefines_8h_1a5e8ce4ed67dbfc5e6a6e691ebb5a1091" kindref="member">ADLX_NO_VTABLE</ref><sp/><ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50" refid="classadlx_1_1IADLXList_1aa146de161b9ae2b849f6d5235ec8ef6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" kindref="member">ADLX_DECLARE_IID</ref><sp/>(L</highlight><highlight class="stringliteral">&quot;IADLXList&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Lists<sp/>must<sp/>declare<sp/>the<sp/>type<sp/>of<sp/>items<sp/>it<sp/>holds<sp/>-<sp/>what<sp/>was<sp/>passed<sp/>as<sp/>ADLX_DECLARE_IID()<sp/>in<sp/>that<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aede8a40979edc05b036d618792c64151" kindref="member">ADLX_DECLARE_ITEM_IID</ref><sp/>(L</highlight><highlight class="stringliteral">&quot;IADLXInterface&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55" refid="classadlx_1_1IADLXList_1acad51980369442d460bcef7ba20e651f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Size<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57" refid="classadlx_1_1IADLXList_1ac00bf24daaea5947769eccb00ed91247" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Empty<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60" refid="classadlx_1_1IADLXList_1a641436ad69e85afdfafbc7b9cd2548e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Begin<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63" refid="classadlx_1_1IADLXList_1abda86ebb6101536836c28430eca3a822" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>End<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66" refid="classadlx_1_1IADLXList_1a19e8eeb1bb42e85c012fad5fdb8b3e4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>At<sp/>(const<sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/>location,<sp/><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref>**<sp/>ppItem)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69" refid="classadlx_1_1IADLXList_1aeed0784a767d0b2653b4f715f3cc782c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Clear<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71" refid="classadlx_1_1IADLXList_1a3e68b911c12d17e073a5e17ee1cba188" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Remove_Back<sp/>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73" refid="classadlx_1_1IADLXList_1a6884bd0edc4d5263c0c4e84710d735bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>virtual<sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>Add_Back<sp/>(<ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref>*<sp/>pItem)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>};<sp/><sp/></highlight><highlight class="comment">//IADLXList</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="namespaceadlx_1ac394bd62b6480eb12102a1e4aa93f752" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>typedef<sp/><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXInterfacePtr_T</ref>&lt;<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>&gt;<sp/><ref refid="classadlx_1_1IADLXInterfacePtr__T" kindref="compound">IADLXListPtr</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>adlx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="IDisplay3DLUT_8h_1ac8d8d2e727badc5fca2da1c31d80dab9" kindref="member">ADLX_DECLARE_IID</ref>(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>,L</highlight><highlight class="stringliteral">&quot;IADLXList&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aede8a40979edc05b036d618792c64151" kindref="member">ADLX_DECLARE_ITEM_IID</ref>(<ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref>,L</highlight><highlight class="stringliteral">&quot;IADLXInterface&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref><sp/><ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">IADLXListVtbl</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//IADLXInterface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Acquire)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Release)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*QueryInterface)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">wchar_t</highlight><highlight class="normal">*<sp/>interfaceId,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>ppInterface);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//IADLXList</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Size)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Empty)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a62a44ee9ddbe8c36a67c2551371448ed" kindref="member">adlx_bool</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Begin)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/><sp/><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*End)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*At)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="ADLXDefines_8h_1a448de12e2971d2271c10f35e0b4e47d9" kindref="member">adlx_uint</ref><sp/>location,<sp/><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref>**<sp/>ppItem);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Clear)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Remove_Back)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref><sp/>(<ref refid="ADLXDefines_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref><sp/>*Add_Back)(<ref refid="classadlx_1_1IADLXList" kindref="compound">IADLXList</ref>*<sp/>pThis,<sp/><ref refid="classadlx_1_1IADLXInterface" kindref="compound">IADLXInterface</ref>*<sp/>pItem);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}IADLXListVtbl;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">IADLXList</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IADLXListVtbl<sp/>*pVtbl;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>IADLXList<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="comment">//ADLX_ICOLLECTIONS_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/test/ADLX/Include/ICollections.h"/>
+  </compounddef>
+</doxygen>

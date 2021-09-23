@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classadlx_1_1IADLXDisplay3DLUT" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>adlx::IADLXDisplay3DLUT</compoundname>
+    <basecompoundref refid="classadlx_1_1IADLXInterface" prot="public" virt="non-virtual">adlx::IADLXInterface</basecompoundref>
+    <includes refid="IDisplay3DLUT_8h" local="no">IDisplay3DLUT.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1a14f8ee21ffcbe21933aa7496f2a1cb33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type></type>
+        <definition>adlx::IADLXDisplay3DLUT::ADLX_DECLARE_IID</definition>
+        <argsstring>(L&quot;IADLXDisplay3DLUT&quot;) virtual bool ADLX_STD_CALL IsSupportedSCE(bool *supported) const =0</argsstring>
+        <name>ADLX_DECLARE_IID</name>
+        <param>
+          <type>L&quot;IADLXDisplay3DLUT&quot;</type>
+        </param>
+        <briefdescription>
+<para>support SCE </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">supported</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1ad7b58082477f4d6a0fffcf37e738e830" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::IsSupportedSCEVividGaming</definition>
+        <argsstring>(bool *supported) const =0</argsstring>
+        <name>IsSupportedSCEVividGaming</name>
+        <param>
+          <type>bool *</type>
+          <declname>supported</declname>
+        </param>
+        <briefdescription>
+<para>support SCE vivid gaming </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">supported</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="89" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1a5da9559967b523ab20e435e5c181bc13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::IsSupportedSCEOledPowerSaving</definition>
+        <argsstring>(bool *supported) const =0</argsstring>
+        <name>IsSupportedSCEOledPowerSaving</name>
+        <param>
+          <type>bool *</type>
+          <declname>supported</declname>
+        </param>
+        <briefdescription>
+<para>support SCE power saving </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">supported</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="96" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1a9987c40b3263211e0149c215e0e8edc8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::IsCurrentSCEDisabled</definition>
+        <argsstring>(bool *SCEDisabled) const =0</argsstring>
+        <name>IsCurrentSCEDisabled</name>
+        <param>
+          <type>bool *</type>
+          <declname>SCEDisabled</declname>
+        </param>
+        <briefdescription>
+<para>sce state disabled </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">SCEDisabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="103" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1ab596a501f6044483eb1c4f0188482ce3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::IsCurrentSCEVividGaming</definition>
+        <argsstring>(bool *VividGaming) const =0</argsstring>
+        <name>IsCurrentSCEVividGaming</name>
+        <param>
+          <type>bool *</type>
+          <declname>VividGaming</declname>
+        </param>
+        <briefdescription>
+<para>sce state vivid gaming </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">VividGaming</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="110" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1ae92f276b0ce5224d2ae780af5101613b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::IsCurrentSCEOledPowerSaving</definition>
+        <argsstring>(bool *OledPowerSaveing) const =0</argsstring>
+        <name>IsCurrentSCEOledPowerSaving</name>
+        <param>
+          <type>bool *</type>
+          <declname>OledPowerSaveing</declname>
+        </param>
+        <briefdescription>
+<para>sce state power save </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">OledPowerSaveing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ok or no </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="117" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1a56ec37ad3bc42615626f6b04d7adfa85" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::SetSCEDisabled</definition>
+        <argsstring>()=0</argsstring>
+        <name>SetSCEDisabled</name>
+        <briefdescription>
+<para>set sec disable </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="123" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1a769cea5aaa50b4a5946a2bf3d8ed315e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::SetSCEVividGaming</definition>
+        <argsstring>()=0</argsstring>
+        <name>SetSCEVividGaming</name>
+        <briefdescription>
+<para>set sce vivid gaming </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="129" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classadlx_1_1IADLXDisplay3DLUT_1ab1877f081ceb24581d470c0ab49bc1da" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool <ref refid="test_8h_1a5339814ff38733ae1fb89b372143a9e7" kindref="member">ADLX_STD_CALL</ref></type>
+        <definition>virtual bool ADLX_STD_CALL adlx::IADLXDisplay3DLUT::SetSCEOledPowerSaving</definition>
+        <argsstring>()=0</argsstring>
+        <name>SetSCEOledPowerSaving</name>
+        <briefdescription>
+<para>set sce oled power save </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ADLX code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="135" column="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classadlx_1_1IADLXDisplay3DLUT" kindref="compound">IADLXDisplay3DLUT</ref> ................ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>adlx::IADLXDisplay3DLUT</label>
+        <link refid="classadlx_1_1IADLXDisplay3DLUT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>adlx::IADLXInterface</label>
+        <link refid="classadlx_1_1IADLXInterface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>adlx::IADLXDisplay3DLUT</label>
+        <link refid="classadlx_1_1IADLXDisplay3DLUT"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>adlx::IADLXInterface</label>
+        <link refid="classadlx_1_1IADLXInterface"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="72" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="73" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classadlx_1_1IADLXInterface_1a983d24356f5cbfdcca173454f3e09deb" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>Acquire</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1a14f8ee21ffcbe21933aa7496f2a1cb33" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>ADLX_DECLARE_IID</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1a84b2474f2941b11e03797ea8a2913034" prot="public" virt="non-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IID</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1a9987c40b3263211e0149c215e0e8edc8" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IsCurrentSCEDisabled</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1ae92f276b0ce5224d2ae780af5101613b" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IsCurrentSCEOledPowerSaving</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1ab596a501f6044483eb1c4f0188482ce3" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IsCurrentSCEVividGaming</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1a5da9559967b523ab20e435e5c181bc13" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IsSupportedSCEOledPowerSaving</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1ad7b58082477f4d6a0fffcf37e738e830" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>IsSupportedSCEVividGaming</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1aec8f7d033d48598b4fe1bf448b6be465" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>QueryInterface</name></member>
+      <member refid="classadlx_1_1IADLXInterface_1ae993f9bbde0a75386d4368d5998df213" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>Release</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1a56ec37ad3bc42615626f6b04d7adfa85" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>SetSCEDisabled</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1ab1877f081ceb24581d470c0ab49bc1da" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>SetSCEOledPowerSaving</name></member>
+      <member refid="classadlx_1_1IADLXDisplay3DLUT_1a769cea5aaa50b4a5946a2bf3d8ed315e" prot="public" virt="pure-virtual"><scope>adlx::IADLXDisplay3DLUT</scope><name>SetSCEVividGaming</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="CMakeLists_8txt" kind="file" language="C++">
+    <compoundname>CMakeLists.txt</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="CMakeLists_8txt_1a49cf8530b2015795f5d36a688350f85c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmake_minimum_required</definition>
+        <argsstring>(VERSION 3.8) project(&quot;Samples&quot;) set(CMAKE_RUNTIME_OUTPUT_DIRECTORY $</argsstring>
+        <name>cmake_minimum_required</name>
+        <param>
+          <type>VERSION 3.</type>
+          <declname>8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Samples/Cpp/CMakeLists.txt" line="4" column="1" bodyfile="D:/test/ADLX/Samples/Cpp/CMakeLists.txt" bodystart="4" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="CMakeLists_8txt_1add3996a7854e089df5341e27a92f8f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>build bin</type>
+        <definition>build bin set</definition>
+        <argsstring>(CMAKE_CONFIGURATION_TYPES &quot;Debug;Release&quot; CACHE STRING &quot;&quot; FORCE) set(CMAKE_INSTALL_PREFIX $</argsstring>
+        <name>set</name>
+        <param>
+          <type>CMAKE_CONFIGURATION_TYPES &quot;Debug;Release&quot; CACHE <ref refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" kindref="member">STRING</ref> &quot;&quot;</type>
+          <declname>FORCE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Samples/Cpp/CMakeLists.txt" line="10" column="1" bodyfile="D:/test/ADLX/Samples/Cpp/CMakeLists.txt" bodystart="10" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#<sp/>CMakeList.txt<sp/>:<sp/>Top-level<sp/>CMake<sp/>project<sp/>file,<sp/>do<sp/>global<sp/>configuration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>and<sp/>include<sp/>sub-projects<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><ref refid="CMakeLists_8txt_1a49cf8530b2015795f5d36a688350f85c" kindref="member">cmake_minimum_required</ref><sp/>(VERSION<sp/>3.8)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">project<sp/>(</highlight><highlight class="stringliteral">&quot;Samples&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="CMakeLists_8txt_1add3996a7854e089df5341e27a92f8f25" kindref="member">set</ref>(CMAKE_RUNTIME_OUTPUT_DIRECTORY<sp/><sp/>${CMAKE_SOURCE_DIR}/build/bin/)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="CMakeLists_8txt_1add3996a7854e089df5341e27a92f8f25" kindref="member">set</ref>(CMAKE_CONFIGURATION_TYPES<sp/></highlight><highlight class="stringliteral">&quot;Debug;Release&quot;</highlight><highlight class="normal"><sp/>CACHE<sp/><ref refid="IDisplay3DLUT_8h_1a0f4d394a3ab4e09bff60f714c66dc5ee" kindref="member">STRING</ref><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>FORCE)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="CMakeLists_8txt_1add3996a7854e089df5341e27a92f8f25" kindref="member">set</ref>(CMAKE_INSTALL_PREFIX<sp/>${CMAKE_RUNTIME_OUTPUT_DIRECTORY}<sp/>CACHE<sp/>PATH<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>FORCE)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">file(COPY<sp/>${CMAKE_SOURCE_DIR}/../output-night-light.txt<sp/>DESTINATION<sp/>${CMAKE_RUNTIME_OUTPUT_DIRECTORY})</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">include_directories(../../)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>Include<sp/>sub-projects.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">add_subdirectory<sp/>(</highlight><highlight class="stringliteral">&quot;Generic/GPUs&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">add_subdirectory<sp/>(&quot;Generic/WorkWithADL&quot;)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">add_subdirectory<sp/>(&quot;Generic/InvalidObject&quot;)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">add_subdirectory<sp/>(&quot;Generic/Log&quot;)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">add_subdirectory<sp/>(&quot;Display/DisplayInfo&quot;<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">add_subdirectory<sp/>(&quot;Display/DisplayGamma&quot;)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">add_subdirectory<sp/>(&quot;Display/DisplayGamut&quot;)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">add_subdirectory<sp/>(&quot;Display/Display3DLUT&quot;)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">add_subdirectory<sp/>(&quot;Display/DisplayEvents&quot;)</highlight></codeline>
+    </programlisting>
+    <location file="D:/test/ADLX/Samples/Cpp/CMakeLists.txt"/>
+  </compounddef>
+</doxygen>

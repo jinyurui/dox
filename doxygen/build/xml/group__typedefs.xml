@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="group__typedefs" kind="group">
+    <compoundname>typedefs</compoundname>
+    <title>ADLX Primitive Data Types</title>
+    <briefdescription>
+<para>ADLX Primitive Data Types. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><table rows="19" cols="2"><row>
+<entry thead="yes" align='right'><para>ADLX Type   </para>
+</entry><entry thead="yes" align='left'><para>Description    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_int64   </para>
+</entry><entry thead="no" align='left'><para>ADLX_int64 is typedef of int64_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_int32   </para>
+</entry><entry thead="no" align='left'><para>ADLX_int32 is typedef of int32_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_int16   </para>
+</entry><entry thead="no" align='left'><para>ADLX_int16 is typedef of int16_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_int8   </para>
+</entry><entry thead="no" align='left'><para>ADLX_int8 is typedef of int8_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_uint64   </para>
+</entry><entry thead="no" align='left'><para>ADLX_uint64 is typedef of uint64_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_uint32   </para>
+</entry><entry thead="no" align='left'><para>ADLX_uint32 is typedef of uint32_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_uint16   </para>
+</entry><entry thead="no" align='left'><para>ADLX_uint16 is typedef of uint16_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_uint8   </para>
+</entry><entry thead="no" align='left'><para>ADLX_uint8 is typedef of uint8_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_size   </para>
+</entry><entry thead="no" align='left'><para>ADLX_size is typedef of size_t    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_handle   </para>
+</entry><entry thead="no" align='left'><para>ADLX_handle is typedef of void*    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_double   </para>
+</entry><entry thead="no" align='left'><para>ADLX_double is typedef of double    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_float   </para>
+</entry><entry thead="no" align='left'><para>ADLX_float is typedef of float    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_void   </para>
+</entry><entry thead="no" align='left'><para>ADLX_void is typedef of float    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_int   </para>
+</entry><entry thead="no" align='left'><para>ADLX_int is typedef of ADLX_int32    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_uint   </para>
+</entry><entry thead="no" align='left'><para>ADLX_uint is typedef of ADLX_uint32    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_ulong   </para>
+</entry><entry thead="no" align='left'><para>ADLX_ulong is typedef of ulong    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_gpuid   </para>
+</entry><entry thead="no" align='left'><para>ADLX_gpuid is typedef of ADLX_int    </para>
+</entry></row>
+<row>
+<entry thead="no" align='right'><para>ADLX_bool   </para>
+</entry><entry thead="no" align='left'><para>ADLX_bool is typedef of bool   </para>
+</entry></row>
+</table>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structIADLXDisplay3DLUTVtbl" kind="struct" language="C++" prot="public">
+    <compoundname>IADLXDisplay3DLUTVtbl</compoundname>
+    <includes refid="IDisplay3DLUT_8h" local="no">IDisplay3DLUT.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a265c849055b86afd1fcc0c9ef351a487" prot="public" static="no" mutable="no">
+        <type><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(*</type>
+        <definition>adlx_long( * IADLXDisplay3DLUTVtbl::Acquire) (IADLXDisplay3DLUT *pThis)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis)</argsstring>
+        <name>Acquire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="147" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1abdaec002e5e809af322df978ea9ae2a3" prot="public" static="no" mutable="no">
+        <type><ref refid="group__ADLXDefs_1ga201851605e965b5eb54b45e81b95af70" kindref="member">adlx_long</ref>(*</type>
+        <definition>adlx_long( * IADLXDisplay3DLUTVtbl::Release) (IADLXDisplay3DLUT *pThis)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis)</argsstring>
+        <name>Release</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="148" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1af063309caf21195ed40aabd5115dbe0a" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::QueryInterface) (IADLXDisplay3DLUT *pThis, const wchar_t *interfaceId, void **ppInterface)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, const wchar_t *interfaceId, void **ppInterface)</argsstring>
+        <name>QueryInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="149" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a772ed0caf4464868f29ad46e82c5e89d" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsSupportedSCE) (IADLXDisplay3DLUT *pThis, adlx_bool *supported)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *supported)</argsstring>
+        <name>IsSupportedSCE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="152" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a3d44dd36ceb24c221267c630a5b17eda" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsSupportedSCEVividGaming) (IADLXDisplay3DLUT *pThis, adlx_bool *supported)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *supported)</argsstring>
+        <name>IsSupportedSCEVividGaming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="153" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a78185aafb3661f421c10c00a5cc3f539" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsSupportedSCEOledPowerSaving) (IADLXDisplay3DLUT *pThis, adlx_bool *supported)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *supported)</argsstring>
+        <name>IsSupportedSCEOledPowerSaving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="154" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1ad2353165f388d676ce8be87cef00f992" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsCurrentSCEDisabled) (IADLXDisplay3DLUT *pThis, adlx_bool *SCEDisabled)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *SCEDisabled)</argsstring>
+        <name>IsCurrentSCEDisabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="155" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a39ee64915bb9bcfe3538396789f2a826" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsCurrentSCEVividGaming) (IADLXDisplay3DLUT *pThis, adlx_bool *VividGaming)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *VividGaming)</argsstring>
+        <name>IsCurrentSCEVividGaming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="156" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1addad28bbc7042691ce8974fe3b7b7d16" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::IsCurrentSCEOledPowerSaving) (IADLXDisplay3DLUT *pThis, adlx_bool *OledPowerSaveing)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis, adlx_bool *OledPowerSaveing)</argsstring>
+        <name>IsCurrentSCEOledPowerSaving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="157" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1ada437fc4baee7a295b19bb54a5a6021b" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::SetSCEDisabled) (IADLXDisplay3DLUT *pThis)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis)</argsstring>
+        <name>SetSCEDisabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="159" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a6262fdf88fb01cfb5232353a2688b53c" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::SetSCEVividGaming) (IADLXDisplay3DLUT *pThis)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis)</argsstring>
+        <name>SetSCEVividGaming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="160" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIADLXDisplay3DLUTVtbl_1a125e9bf1d93ca481712fbd8cfb8a6f36" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1a9306b05f15578edbf79b649dd612b8c0" kindref="member">ADLX_RESULT</ref>(*</type>
+        <definition>ADLX_RESULT( * IADLXDisplay3DLUTVtbl::SetSCEOledPowerSaving) (IADLXDisplay3DLUT *pThis)</definition>
+        <argsstring>)(IADLXDisplay3DLUT *pThis)</argsstring>
+        <name>SetSCEOledPowerSaving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="161" column="5" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/IDisplay3DLUT.h" line="144" column="1" bodyfile="D:/test/ADLX/Include/IDisplay3DLUT.h" bodystart="145" bodyend="163"/>
+    <listofallmembers>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a265c849055b86afd1fcc0c9ef351a487" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>Acquire</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1ad2353165f388d676ce8be87cef00f992" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsCurrentSCEDisabled</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1addad28bbc7042691ce8974fe3b7b7d16" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsCurrentSCEOledPowerSaving</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a39ee64915bb9bcfe3538396789f2a826" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsCurrentSCEVividGaming</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a772ed0caf4464868f29ad46e82c5e89d" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsSupportedSCE</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a78185aafb3661f421c10c00a5cc3f539" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsSupportedSCEOledPowerSaving</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a3d44dd36ceb24c221267c630a5b17eda" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>IsSupportedSCEVividGaming</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1af063309caf21195ed40aabd5115dbe0a" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>QueryInterface</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1abdaec002e5e809af322df978ea9ae2a3" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>Release</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1ada437fc4baee7a295b19bb54a5a6021b" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>SetSCEDisabled</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a125e9bf1d93ca481712fbd8cfb8a6f36" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>SetSCEOledPowerSaving</name></member>
+      <member refid="structIADLXDisplay3DLUTVtbl_1a6262fdf88fb01cfb5232353a2688b53c" prot="public" virt="non-virtual"><scope>IADLXDisplay3DLUTVtbl</scope><name>SetSCEVividGaming</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

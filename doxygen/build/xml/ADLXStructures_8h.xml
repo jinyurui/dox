@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="ADLXStructures_8h" kind="file" language="C++">
+    <compoundname>ADLXStructures.h</compoundname>
+    <includes refid="ADLXDefines_8h" local="yes">ADLXDefines.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>windows.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="1">
+        <label>ADLXStructures.h</label>
+        <link refid="ADLXStructures_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>wchar.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>ADLXDefines.h</label>
+        <link refid="ADLXDefines_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structADLX__RGB" prot="public">ADLX_RGB</innerclass>
+    <innerclass refid="structADLX__Point" prot="public">ADLX_Point</innerclass>
+    <innerclass refid="structADLX__GamutColorSpace" prot="public">ADLX_GamutColorSpace</innerclass>
+    <innerclass refid="structADLX__GammaRamp" prot="public">ADLX_GammaRamp</innerclass>
+    <innerclass refid="structADLX__RegammaCoeff" prot="public">ADLX_RegammaCoeff</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Notice<sp/>Regarding<sp/>Standards.<sp/><sp/>AMD<sp/>does<sp/>not<sp/>provide<sp/>a<sp/>license<sp/>or<sp/>sublicense<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>any<sp/>Intellectual<sp/>Property<sp/>Rights<sp/>relating<sp/>to<sp/>any<sp/>standards<sp/>For<sp/>clarity,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>will<sp/>pay<sp/>any<sp/>royalties<sp/>due<sp/>for<sp/>such<sp/>third<sp/>party<sp/>technologies<sp/>that<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>owed<sp/>as<sp/>a<sp/>result<sp/>of<sp/>AMD<sp/>providing<sp/>the<sp/>Software<sp/>to<sp/>you.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>MIT<sp/>license<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2021<sp/>Advanced<sp/>Micro<sp/>Devices,<sp/>Inc.<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SOFTWARE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ADLX_STRUCTURES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ADLX_STRUCTURES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="ADLXDefines_8h" kindref="compound">ADLXDefines.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>ADLX_RGB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structADLX__RGB" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47" refid="structADLX__RGB_1a8a53f770bc4486014dc6fdeeaef4e483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a4f00ef174139020b2c31154d1af6df19" kindref="member">adlx_double</ref><sp/><ref refid="structADLX__RGB_1a8a53f770bc4486014dc6fdeeaef4e483" kindref="member">gamutR</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="structADLX__RGB_1a7540762d60fe2d8cdad1162521f6e452" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a4f00ef174139020b2c31154d1af6df19" kindref="member">adlx_double</ref><sp/><ref refid="structADLX__RGB_1a7540762d60fe2d8cdad1162521f6e452" kindref="member">gamutG</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49" refid="structADLX__RGB_1a75b06f09bda103527d0c6a3cb1347b0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1a4f00ef174139020b2c31154d1af6df19" kindref="member">adlx_double</ref><sp/><ref refid="structADLX__RGB_1a75b06f09bda103527d0c6a3cb1347b0e" kindref="member">gamutB</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/><ref refid="structADLX__RGB" kindref="compound">ADLX_RGB</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>ADLX_RGB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>ADLX_Point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="structADLX__Point" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="structADLX__Point_1a2c171617e8bae9711ee5de877201c590" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structADLX__Point_1a2c171617e8bae9711ee5de877201c590" kindref="member">iX</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65" refid="structADLX__Point_1afbed37d07cb6b0374a51dc846782f773" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structADLX__Point_1afbed37d07cb6b0374a51dc846782f773" kindref="member">iY</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>ADLX_Point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>ADLX_GamutColorSpace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="structADLX__GamutColorSpace" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79" refid="structADLX__GamutColorSpace_1afe63ac7ab293e0f5ebda65cf866fdf14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structADLX__GamutColorSpace_1afe63ac7ab293e0f5ebda65cf866fdf14" kindref="member">Red</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80" refid="structADLX__GamutColorSpace_1a0ccfe2bd88f7f19dffb2d58e4842ec6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structADLX__GamutColorSpace_1a0ccfe2bd88f7f19dffb2d58e4842ec6a" kindref="member">Green</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="81" refid="structADLX__GamutColorSpace_1a30aeb61e794b9514eb355160c79c4c5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structADLX__Point" kindref="compound">ADLX_Point</ref><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structADLX__GamutColorSpace_1a30aeb61e794b9514eb355160c79c4c5a" kindref="member">Blue</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}<sp/><ref refid="structADLX__GamutColorSpace" kindref="compound">ADLX_GamutColorSpace</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>ADLX_GamutColorSpace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>ADLX_GammaRamp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="structADLX__GammaRamp" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96" refid="structADLX__GammaRamp_1aa71eacad13632448e9b1a6a30b556531" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><sp/>gamma[256<sp/>*<sp/>3];<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}<sp/><ref refid="structADLX__GammaRamp" kindref="compound">ADLX_GammaRamp</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>ADLX_GammaRamp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>region<sp/>ADLX_RegammaCoeff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="structADLX__RegammaCoeff" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113" refid="structADLX__RegammaCoeff_1a3cb450dcabefbe6f7ed5b5eb04a4e6a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><ref refid="structADLX__RegammaCoeff_1a3cb450dcabefbe6f7ed5b5eb04a4e6a1" kindref="member">CoefficientA0</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114" refid="structADLX__RegammaCoeff_1a83ab7eb07f33a84a7056f4a2aeb6d84e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><ref refid="structADLX__RegammaCoeff_1a83ab7eb07f33a84a7056f4a2aeb6d84e" kindref="member">CoefficientA1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115" refid="structADLX__RegammaCoeff_1aafeffa1fa77fe26b155f81ae96d1d71f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><ref refid="structADLX__RegammaCoeff_1aafeffa1fa77fe26b155f81ae96d1d71f" kindref="member">CoefficientA2</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116" refid="structADLX__RegammaCoeff_1ab9d1517c68b2e91d30188f60aef5619c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><ref refid="structADLX__RegammaCoeff_1ab9d1517c68b2e91d30188f60aef5619c" kindref="member">CoefficientA3</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117" refid="structADLX__RegammaCoeff_1ab5c105101ac4158b7ba51769ab620fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref><sp/><sp/><sp/><sp/><ref refid="structADLX__RegammaCoeff_1ab5c105101ac4158b7ba51769ab620fc0" kindref="member">Gamma</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}<sp/><ref refid="structADLX__RegammaCoeff" kindref="compound">ADLX_RegammaCoeff</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>endregion<sp/>ADLX_RegammaCoeff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//ADLX_STRUCTURES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/test/ADLX/Include/ADLXStructures.h"/>
+  </compounddef>
+</doxygen>

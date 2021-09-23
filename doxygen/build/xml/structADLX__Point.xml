@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structADLX__Point" kind="struct" language="C++" prot="public">
+    <compoundname>ADLX_Point</compoundname>
+    <includes refid="ADLXStructures_8h" local="no">ADLXStructures.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structADLX__Point_1a2c171617e8bae9711ee5de877201c590" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_Point::iX</definition>
+        <argsstring></argsstring>
+        <name>iX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="64" column="23" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structADLX__Point_1afbed37d07cb6b0374a51dc846782f773" prot="public" static="no" mutable="no">
+        <type><ref refid="ADLXDefines_8h_1aab935edec574d195d71acbce1f509cf6" kindref="member">adlx_int</ref></type>
+        <definition>adlx_int ADLX_Point::iY</definition>
+        <argsstring></argsstring>
+        <name>iY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/test/ADLX/Include/ADLXStructures.h" line="65" column="23" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure containing information about driver point coordinates This structure is used to store the driver point coodinates for gamut and white point. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXStructures.h" line="62" column="1" bodyfile="D:/test/ADLX/Include/ADLXStructures.h" bodystart="63" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structADLX__Point_1a2c171617e8bae9711ee5de877201c590" prot="public" virt="non-virtual"><scope>ADLX_Point</scope><name>iX</name></member>
+      <member refid="structADLX__Point_1afbed37d07cb6b0374a51dc846782f773" prot="public" virt="non-virtual"><scope>ADLX_Point</scope><name>iY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

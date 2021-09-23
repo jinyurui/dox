@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dllFunction" kind="page">
+    <compoundname>dllFunction</compoundname>
+    <title>How to use dll</title>
+    <innerpage refid="LoadDll">Load dll</innerpage>
+    <innerpage refid="FreeDll">Free dll</innerpage>
+    <innerpage refid="GetFun">Get library function address</innerpage>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para><ref refid="LoadDll" kindref="compound">Load dll</ref></para>
+</listitem><listitem><para><ref refid="FreeDll" kindref="compound">Free dll</ref></para>
+</listitem><listitem><para><ref refid="GetFun" kindref="compound">Get library function address</ref> </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="D:/test/ADLX/Include/ADLXDefines.h"/>
+  </compounddef>
+</doxygen>
